@@ -1,0 +1,171 @@
+
+<DOC>
+<DOCNO>
+WSJ900801-0089
+</DOCNO>
+<DOCID>
+900801-0089.
+</DOCID>
+<HL>
+   Mutual Funds:
+   Samuelson
+   Puts Father's
+   Text to Work
+   ----
+   By Jonathan Clements
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+08/01/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE C1
+</SO>
+<CO>
+   COGRA
+</CO>
+<IN>
+MUTUAL AND MONEY-MARKET FUNDS (FND)
+BOND MARKET NEWS (BON)
+</IN>
+<LP>
+   Following in your father's footsteps is tough at the best
+of times, but it has taken on a whole new meaning for fund
+manager Paul R. Samuelson.
+   Mr. Samuelson is the son of Paul A. Samuelson, the Nobel
+Prize-winning economist and Massachusetts Institute of
+Technology professor, whose economics textbook for years has
+been a staple on many college reading lists. Although the
+older Mr. Samuelson never managed money professionally, he
+was an early advocate of the "efficient market" hypothesis,
+and also developed techniques for valuing call options and
+warrants.
+</LP>
+<TEXT>
+   Now his 37 year-old son is putting those ideas into
+practice. In April, Mr. Samuelson took over the helm at
+Colonial Income Trust, a $150 million corporate bond fund.
+For the past five years, Boston's Colonial Group Inc. has
+been experimenting with so called quantitative investment
+techniques.
+   Quantitative investors are the nerds of Wall Street.
+Unloved by traditional stock pickers, these computer-driven
+investors shun conventional securities analysis and instead
+take their cues from university research. While most
+investors speak with awe about legendary stock pickers like
+Warren Buffett or John Templeton, the quant heroes are
+academics such as Harry Markowitz, Eugene Fama and Paul A.
+Samuelson.
+   So far, Colonial's experiment with quant techniques has
+paid off nicely for the firm's stock-fund investors. Over the
+past five years, Colonial's quants have taken the fund
+group's lackluster stock funds and turned them into
+better-than-average performers.
+   The group's two oldest and largest stock funds, Colonial
+Fund and Colonial Growth Shares, were once considered
+mediocre performers. But since the start of 1986, Colonial
+Fund has posted an annualized total return of 13.4% and
+Colonial Growth Shares has returned 17.1%, vs. 13.2% for the
+average stock fund tracked by Lipper Analytical Services.
+   That turnaround has started to attract investors'
+attention, and the assets of Colonial's broker-sold stock
+funds have almost quadrupled over the past five years.
+   Buoyed by their success with stocks, Colonial's quants now
+are turning their attention to bonds. In the past, the
+analysts and fund managers in Colonial's bond department have
+produced decent results by using traditional analysis.
+   "I'd say they're skeptical," says Jarrod Wilcox,
+Colonial's chief investment officer. "If it's obvious that
+good things are coming out of {the quantitative approach},
+they'll be willing to go along with it."
+   Mr. Samuelson has been given the task of leading the quant
+charge into the bond fund area. Like most quantitative
+investors, Mr. Samuelson believes the financial markets are
+fairly efficient. The efficient market hypothesis holds that
+the only successful "market timer" is a lucky one. For Mr.
+Samuelson, that means forgoing any attempt at guessing the
+direction of interest rates. He believes that predicting
+rates is futile because -- with so many analysts making
+forecasts -- it is all but impossible for an investor to
+consistently outguess competitors.
+   Mr. Samuelson sticks mainly with investment-grade
+corporate bonds. Government bonds are so simple that Mr.
+Samuelson's model -- well-suited to corporate bonds with
+intricate call features and sinking funds -- becomes
+redundant. And as for high-yielding junk bonds, he says,
+there isn't any substitute for the spadework done by
+traditional bond analysts.
+   "There are two obvious ways that a quantitative approach
+can pay off," says Mr. Samuelson. "One way is to value
+securities that have complex features. The other way is to
+judge the default rate better than others."
+   In judging default rates, Mr. Samuelson draws on one of
+the quant school's favorite ideas, the Black-Scholes formula.
+Developed in the early 1970s by two academics, the formula
+was originally used to value options. The formula
+incorporates the notion that a call option on a stock is more
+valuable if the underlying stock is more volatile. That's
+because a call option -- which gives its holder the right but
+not the obligation to buy a security at a specified price --
+holds greater potential for a large gain if the underlying
+stock tends to fluctuate wildly.
+   Mr. Samuelson now is taking the ideas that underpin
+Black-Scholes and applying them to corporate bonds. He uses
+the volatility of a company's stock to judge the volatility
+of an entire company's value, as measured by the combined
+worth of its shares outstanding and its debt. Although a
+volatile company value can be a good sign for shareholders,
+because it suggests there is a chance for a fat gain, it also
+implies that there is a substantial risk of default for
+holders of the bonds.
+   Mr. Samuelson recently bought some Penn Central Corp.
+bonds that trade at 100.19, have a coupon of 10 5/8% and
+mature in 2000. The bonds cannot be called in early by Penn
+Central so, says Mr. Samuelson, "here the only thing I can
+say of any use is what its discount should be based on the
+default risk. I would estimate that the discount due to the
+default risk should be 7%. The actual discount {relative to a
+comparable government bond} is 13%."
+   Though Mr. Samuelson concedes that his model doesn't help
+much when there's a high risk of default, he reckons his
+analysis can unearth bonds that are cheap relative to a
+firm's long-term default risk -- providing that the stock
+market is accurately assessing the risk of owning a company's
+stock. To make sure he's not being misled by a mispriced
+stock, Mr. Samuelson's compares his estimate for a company's
+volatility with volatility estimates for companies in the
+same industry. Says he, "There's a definite art to valuing
+corporate bonds."
+   To assess the likely return on a corporate bond, investors
+generally look at a bond's yield to first call as well as its
+yield to maturity. That is because many bonds have special
+features that allow companies to buy back, or call, their
+bonds before the maturity date. Mr. Samuelson tries to cope
+with this problem by looking at a bond's option-adjusted
+yield. This calculation takes into account all of the bond's
+provisions, including the likelihood that a bond will be paid
+off early.
+   Colonial Income Trust, for instance, owns some USAir Group
+bonds, which have a coupon of 12 7/8% and mature in 2000.
+With the bonds selling at 109.53, the yield to maturity is
+11.2%. But that figure is misleading, because the bond can
+first be called in 1995 at 100, giving the bonds a yield to
+first call of 10.1%. Figuring in the high likelihood that the
+bonds will be called in 1995, Mr. Samuelson comes up with an
+option-adjusted yield of 9.9%. That is what Mr. Samuelson
+reckons the bonds would yield if they were definitely going
+to mature in 1995. He can then use that yield to compare
+USAir with other, comparable quality corporate bonds maturing
+in 1995.
+   Now, Mr. Samuelson is developing a computer program to
+incorporate another of the quant school's key ideas,
+so-called portfolio optimization. Optimization draws on the
+notion that, while all bonds will react to a change in
+interest rates, the default risk of different bonds will vary
+as economic conditions change. There is a poor correlation,
+for instance, between the default risk of utility bonds and
+those of a capital goods producer. By combining such bonds in
+his portfolio, Mr. Samuelson hopes to lower the overall
+volatility of his fund.
+</TEXT>
+</DOC>

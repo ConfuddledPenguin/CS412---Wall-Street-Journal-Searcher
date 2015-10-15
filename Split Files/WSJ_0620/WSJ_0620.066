@@ -1,0 +1,150 @@
+
+<DOC>
+<DOCNO>
+WSJ900620-0093
+</DOCNO>
+<DOCID>
+900620-0093.
+</DOCID>
+<HL>
+   TECHNOLOGY
+   ----
+   By William M. Bulkeley
+</HL>
+<DATE>
+06/20/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B1
+</SO>
+<CO>
+   MSFT LOTS ALDC MIPS
+</CO>
+<IN>
+SOFTWARE (SOF)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+</IN>
+<LP>
+   More Software Makers
+   Delete Free Advice
+                                                                                                       
+
+</LP>
+<TEXT>
+   CUSTOMERS may not like it, but more software makers are
+installing 900 numbers to make users pay for advice.
+   "The idea seems to be catching on," says Jeffrey Tarter,
+editor of SoftLetter, a Watertown, Mass., newsletter.
+   Phone support has been a bone of contention between
+customers and software makers for years. The companies say
+answering questions is time-consuming and costly. Customers
+say they have to call because software and instructions are
+incomprehensible.
+   The software makers, which have started charging $1 to $2
+a minute, justify the fees by saying they pay for
+improvements in service. Buttonware Inc., a Bellevue, Wash.,
+maker of PC File, a $129 database, says it has doubled the
+number of advisers since beginning a $1-a-minute 900 line.
+"We thought we'd get roasted," says a spokeswoman. "But we
+found that people are willing to pay. They just want the
+help."
+   Industry giant Microsoft Inc. has installed a 900 line to
+help people with questions about MS-DOS, the operating
+systems it designed but sells through other companies. In the
+past, it didn't provide much help to puzzled DOS users, nor
+did anyone else, customers say. Lotus Development Corp.,
+maker of best-selling spreadsheet 1-2-3, and Aldus Corp.,
+maker of the desktop publishing program PageMaker, are also
+trying out 900 numbers.
+   Russ Walter, a computer-book author in Somerville, Mass.,
+who answers phone queries for free, says, "I'd hate to see it
+become the norm." After all, he says, "one marketing pitch is
+that they support their customers." Another problem: Many
+companies have switchboards that block users from dialing 900
+numbers.
+                                                                                                       
+
+   Checking Photo I.D.s
+   On a Computer Screen
+
+   INVENTORS have struggled for years to meld computers with
+security systems.
+   Various companies already have marketed electronic devices
+that check identities by examining eyes or by sensing the
+speed and pressure with which people write their names.
+   Now, Sacody Technologies Inc., New York, has developed a
+straightforward system that lets clerks or security guards
+call up stored photos and signatures on a three-inch screen.
+Because pictures of authorized customers or employees are
+stored on a disk, crooks can't get by with forged
+identification cards.
+   Sacody has devised a way to compress identification
+photographs to 5,000 bytes of information, allowing storage
+of 5,000 photos on a 30-megabyte personal-computer disk.
+Without compression, a photo takes about 50,000 bytes. The
+amount of data is small enough so the information can be sent
+from a disk to a Sacody terminal in six seconds on a
+local-area network or 15 seconds over a regular phone line.
+   One early user, Turtle Cove Golf Club, a New York driving
+range, says the system helps workers confirm that a golfer
+has credit in his account before handing out a bucket of
+balls.
+                                                                                                       
+
+   MIPS Keeps Slipping
+   As a Speed Standard
+                                                                                                       
+
+   THE COMMON measure of computer speed, MIPS, is an acronym
+for millions of instructions per second, but cynical
+customers joke that it means meaningless indicator of
+processor speed or even marketing instructions for pushy
+salespeople.
+   Now, a new suite of measurements called SPEC, which is
+being used widely by makers of engineering workstations,
+makes clear just how meaningless MIPS can be. The 10 SPEC
+benchmark programs were designed to provide consistent speed
+comparisons among computers doing various types of jobs.
+   John R. Mashey, a vice president at MIPS Computer Systems
+Inc., a Sunnyvale, Calif., workstation maker, recently
+compared vendors' MIPS speed claims with their reported SPEC
+performance numbers. It turns out the customers have a right
+to be cynical. While Mr. Mashey says the vendors had
+legitimate reasons for their MIPS claims, the ratings could
+badly mislead customers.
+   In the study, Mr. Mashey concludes that one of his
+company's workstations rated at 20 MIPS "shows similar
+performance on integer programs" to an International Business
+Machines Corp. RS/6000 rated at 34.5 MIPS and is twice as
+fast as a Sun Microsystems Inc. 12.5 MIPS workstation. A
+Digital Equipment Corp. VAX workstation's SPEC performance
+translates into about 90% of its claimed MIPS, but a Digital
+RISC workstation is about 83%.
+   Overall, Mr. Mashey says that actual performance as
+measured by SPEC ranges from 54% to 96% of companies' MIPS
+claims. In floating-point operations, which reflect
+scientific performance, differences range from 34% to 135%.
+"There is no such thing as a MIPS rating that means much," he
+concludes.
+                                                                                                       
+
+   Odds and Ends
+                                                                                                       
+
+   JAPANESE companies invested a record $320 million in small
+U.S. technology companies last year, says Venture Economics
+Inc., a Wellesley, Mass., research firm. Even without the
+$100 million investment by Canon Inc. in Stephen Jobs's Next
+Inc., that was 25% higher than the $176 million recorded in
+1988. . . . Philip Emeagwali, a Nigerian graduate student at
+the University of Michigan, won the Gordon Bell Prize for
+last year's most cost-effective supercomputer program, a
+simulation of an underground oil reservoir that he wrote for
+the Connection Machine, a computer with 65,000
+microprocessors connected together. The fastest conventional
+supercomputers link eight very powerful processors. Mr.
+Emeagwali compares big processors to oxen and small ones to
+chickens: "If the chickens coordinate their efforts, they'll
+do a better job."
+</TEXT>
+</DOC>

@@ -1,0 +1,148 @@
+
+<DOC>
+<DOCNO>
+WSJ900608-0015
+</DOCNO>
+<DOCID>
+900608-0015.
+</DOCID>
+<HL>
+   Enterprise:
+   Businesses Map Plans for Use of Tiger Geographical Files
+   ---
+   Census Bureau Data, Now on Disk,
+   Offer Opportunities and Headaches
+   ----
+   By Eugene Carlson
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+06/08/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B2
+</SO>
+<IN>
+SOFTWARE (SOF)
+</IN>
+<GV>
+COMMERCE DEPARTMENT (COM)
+</GV>
+<LP>
+   Countless small businesses can't wait to use the Census
+Bureau's new Tiger file. But Tiger is proving tough to tame.
+   Tiger, a landmark project in demography, is a minutely
+detailed computerized map of the entire U.S. When combined
+with a data base such as the results of the 1990 census or a
+company's own customer files, Tiger gives desktop computer
+users for the first time the cartographic equivalent of the
+computerized spread sheet.
+</LP>
+<TEXT>
+   Software companies, some run by Census Bureau veterans,
+are writing Tiger-based programs that allow small companies
+to create "smart maps" on their own computers. Users can ask
+various "what if . . ." questions and print out the answers
+in map form. Only mainframe computer customers could perform
+this trick before, and never with the geographic precision
+provided by Tiger.
+   Retailers, banks, franchisers, vehicle fleet operators,
+marketers, and direct mail houses are excited about the
+combined Tiger-census file. So are political consultants and
+special interest groups, who see it as a revolutionary way to
+approach political redistricting.
+   Package delivery companies can use Tiger technology to
+figure out the fastest and most efficient routes for their
+truck fleets. By juggling population, age and income figures
+with geography, retailers can pinpoint on a computer-screen
+map the best location for a new store.
+   The Census Bureau's computer map is "an amazing product .
+. . that has immediate uses," says Stephen Poizner, president
+of Strategic Mapping Inc., San Jose, Calif. His company's new
+program for PCs, Atlas*Gis, incorporates Tiger.
+   But training users in Tiger talk may be more difficult
+than originally thought. The Census Bureau provides Tiger
+files on magnetic tapes for mainframes and on compact discs
+(CD-ROM) for PCs at bargain prices -- $250 for a disc that
+maps an entire state -- but the data is tough for the
+non-computer professional to digest.
+   Viewed by itself, Tiger resembles uncooked spaghetti, a
+jumble of random lines and address numbers. "Tiger is 16
+billion lines," says Ed Spar, president of New York-based
+Market Statistics. "Until you turn those things into
+coordinates, and blend them with a mapping software package,
+you haven't got much."
+   Some purchasers of the first Tiger tapes say they've found
+an uncomfortable level of errors in the geographic
+information, including erroneous addresses and missing postal
+ZIP code numbers.
+   The Tiger tapes "are significantly different from what was
+promised," grumbles Skip Hunt, general manager of Donnelley
+Marketing Information Services, Stamford, Conn. Jeanne
+Savage, a manager in the geographic information systems
+division of International Business Machines Corp., says Tiger
+tapes that IBM has seen vary from "very accurate" to "OK."
+   Census enumerators are using Tiger maps in checking
+households that didn't send in census forms and are penciling
+in corrections. "No map is completely up to date," says
+Robert LaMacchia, a Census Bureau assistant division chief
+for planning. "Through use, the {Tiger} data will become
+current and represent what's actually on the ground."
+   "There's going to be a whole industry that's going to take
+Tiger, improve it, and resell it at a premium," adds
+Donnelley's Mr. Hunt. Mr. Poizner says he expects "a ton of
+competitors," as the concept of desktop mapping becomes
+better known.
+   Tiger's formal name is the Topologically Integrated
+Geographic Encoding and Reference file. It's an ambitious,
+seven-year, $200 million project that lists in digital form
+every highway, street, bridge and tunnel in the 50 states.
+Each city block or stretch of country road carries its own
+range of addresses. In scope and level of detail, Tiger and
+its associated computer programs stand alone in the desktop
+mapping arena.
+   Software companies are scrambling to take advantage of
+this statistical mother lode. "It looks like the government
+opened up a big oil field," says Don Cooke, president of
+Geographic Data Technology, Lyme, N.H., who helped compile
+Tiger when he worked at the Census Bureau. Mr. Cooke says the
+Detroit-based data firm R.L. Polk is paying his company $3
+million "to clean up Tiger and make it work for direct mail."
+   Mr. Cooke thinks there's also a payoff in programs that
+help delivery services get better productivity from their
+vehicles. "Everybody running a big truck fleet is looking at
+this technology," he says.
+   Routing Technology Software Inc., Vienna, Va., markets
+software called Roadshow. It ponders the number and location
+of orders received by a company, then divides the day's
+deliveries between vans, laying out the sequence of stops and
+the most efficient route to drive. Tiger, "in its present
+form, is probably too tough to use so there's an opportunity
+for companies like ours to predigest it," says Donald Soults,
+Routing Technology's president.
+   Even the watered-down version can be intimidating. "I
+can't even explain it to you, and I've seen it three times,"
+says Richard Orloff, marketing manager for the Asbury Park
+Press, an afternoon newspaper in central New Jersey. The
+newspaper uses Roadshow to deploy its circulation trucks.
+   Fred Barber, research demographer in the Washington
+consulting firm Matthew Greenwald &amp; Associates, warns that
+Tiger is untested in the marketplace and complex for the
+average PC user. "Small businesses, retailers and
+distributors who can get on top of this are going to have a
+competitive advantage. But I think the learning curve is
+going to be a bit steep."
+   Computer hardware may be a problem. Tiger programs require
+more computer capacity than some small businesses possess.
+And the price of software that can be linked to Tiger could
+come as a shock to the entrepreneur who is used to paying
+$400 for a sophisticated spread sheet. "You're talking about
+$2,500 for a piece of software that doesn't even include
+Tiger data," says Joe Francica, commercial applications
+manager for Tydac Technologies Corp. of Ottawa.
+   But Strategic Mapping's Mr. Poizner says: "I'm shocked if
+anyone thinks price is an issue. If you're building a new
+store, you're talking $1 million in real estate and
+construction costs."
+</TEXT>
+</DOC>

@@ -1,0 +1,266 @@
+
+<DOC>
+<DOCNO>
+WSJ900604-0130
+</DOCNO>
+<DOCID>
+900604-0130.
+</DOCID>
+<HL>
+   Workplace (A Special Report): Higher Tech
+   ---
+   Putting It All Together:
+   Computer-Integrated Factories Are Said to Be the
+   Savior of Industry; But Can Anyone Make the System Work?
+   ----
+   By Stephen Kreider Yoder
+</HL>
+<DATE>
+06/04/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE R24
+</SO>
+<IN>
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+SOFTWARE (SOF)
+INDUSTRIAL EQUIPMENT, MACHINE TOOLS (IND)
+AEROSPACE (ARO)
+</IN>
+<GV>
+DEFENSE DEPARTMENT (DEF)
+</GV>
+<LP>
+   THE ROBOT'S GLORY days are over.
+   Forget that old vision of the factory of the future with
+automatons humming away in eerie, unmanned buildings while
+they churn out world-beating widgets. U.S. companies have a
+new script for the future factory, and robots, while still
+having a supporting part in the drama, have lost the lead
+role.
+</LP>
+<TEXT>
+   The secret to competitive manufacturing, the new scenario
+goes, lies less in heavy automation and more in using
+computers to gather information from the factory floor and
+swap it with information from every other aspect of a
+business -- from the sales department to product engineering
+to the shipping docks.
+   Consider how Motorola Inc. makes and sells its Bravo
+pocket pagers. On May 5, a salesman in Foster City, Calif.,
+types an order into his Macintosh computer for 150 black
+Bravo pagers, specifies the unique code that will cause each
+pager to beep and asks for delivery in two weeks. The order
+zips over phone lines to a mainframe computer in a new
+factory in Boynton Beach, Fla. The computer automatically
+schedules the 150 pagers for production May 15, orders the
+proper components, and, on the day after assembly, informs
+the shipping docks to express-mail them to Pacific Telesis
+Group in California.
+   Motorola's two-year-old operation is, in manufacturing
+parlance, "computer integrated." Simply put, the factory's
+machines and computers speak the same language as the
+computers in sales and shipping. The payback: Using mostly
+the same type of machines that populate the company's older
+factory floors, the Florida facility makes pagers at the same
+cost as does Motorola's Singapore plant, which has cheaper
+labor but isn't computer integrated. And the domestic plant
+can deliver, overnight, custom-built pagers that used to take
+nearly six weeks to supply.
+   Computer-integrated manufacturing, or CIM, is increasingly
+the U.S. manufacturer's mantra. Most manufacturers have
+appointed CIM managers. A $35 billion-a-year industry has
+sprung up to supply CIM equipment and software, according to
+Advanced Manufacturing Research, a Cambridge, Mass., research
+firm.
+   No wonder. CIM dangles the promise of a comeback for
+American manufacturers, who for a decade have been criticized
+as being inept. And it does so at a relatively small cost.
+CIM demands innovations that are heavy on software and
+networking technology, where the U.S. is strong, and light on
+robots and machines, where Japan is stronger. "If we get our
+act together," says Jerry McCracken, manager of industrial
+programs at San Francisco's Bechtel Group Inc., "this is one
+of the few areas left where we can get our competitive
+advantage."
+   But getting it together may be a tall order. More a
+philosophy than a technology, CIM (pronounced sim) requires a
+company to break down barriers between departments, to
+streamline with quality control and just-in-time
+manufacturing, and to give every machine and employee the
+ability to talk with each other and "watch" a product as it
+moves through the entire corporate pipeline. "CIM is a
+cultural change: People that over the years have learned to
+work separately need to find ways to work together again,"
+says Rody Salas, senior vice president of Allen-Bradley Co.
+"The computer is being used as a tool that allows you to
+integrate these functions that have been separated over the
+years."
+   The academics, manufacturing executives, vendors and
+consultants who support CIM dissociate themselves from
+America's automation fetish in the 1970s and 1980s, when
+doomsayers warned of a robot gap with Japan and companies
+spent billions of dollars to replace humans with machines.
+Those robots were meant to cut labor costs; CIM's main goal
+is to improve competitiveness by cutting the time it takes to
+turn ideas into products and to get existing products to
+market. "The idea is to cut cycle time so you can catch the
+crest of the wave" of demand, says CIM-systems manager Keith
+Turner of Levi Strauss &amp; Co., "rather than following behind
+and picking up the pieces."
+   One trouble with robots is that although they are great in
+factories that churn out masses of a single product, they are
+of less use in today's "flexible manufacturing" facilities.
+Such a flexible factory is Apple Computer Inc.'s new
+Macintosh plant in Fremont, Calif., which uses little
+automation equipment but can assemble four different Mac
+models at one time. By using CIM to tie the factory's
+computers into sales and delivery systems, Apple plans to
+switch to what it calls "build to order," which allows the
+company to make only what customers have requested and
+eliminate the need for large inventories.
+   Another problem with robots was that they often merely
+took over the same inefficient tasks that humans had
+previously performed on poorly run assembly lines. What's
+more, companies tended to create "islands of automation" that
+affected only specific tasks. That meant a design computer
+here, an assembly robot or testing machine there, maybe a
+bar-code reader at the shipping bay. But these "islands"
+didn't share information about where a product was in the
+pipeline.
+   That's what Federal-Mogul Corp. found last year when it
+took a hard look at its oilseal factories. The Southfield,
+Mich., autoparts company was getting battered by U.S. and
+foreign rivals that could develop new seals in under 10
+weeks; it took Federal nearly 18. In April 1989, Federal
+hired Ernst &amp; Young, the consulting firm, to find out why.
+   The firm found chaos under a veneer of automation. Federal
+had invested heavily in automation, but departments were run
+as fiefdoms whose employees barely communicated and whose
+machines didn't understand each other's data. After a
+salesman sent in an order for a new seal, the paper work
+typically spent weeks unnoticed on an engineer's desk.
+Blueprints sat for weeks more in manufacturing. And salesmen,
+ill informed of the factories' capabilities, often would
+agree to sell a part that was impossible to make, causing
+costly delays. Federal "was a traditional hierarchical
+manufacturing organization," says Lawrence Smith, Federal's
+manager for technical services. "We saw that if it continued,
+the seal group would be out of business."
+   Ernst &amp; Young prescribed a heavy dose of CIM that stripped
+divisions of their autonomy and reorganized them into
+"business-unit teams." The teams -- comprising salesmen,
+distribution experts, and engineers from manufacturing,
+testing and product design -- had to see a product through
+from order to delivery. Federal bought software to connect
+its islands of automation, tying together its work stations,
+personal computers and milling machines.
+   Now a salesman taps into a computer that will quickly tell
+him whether the part can be built and how much a new seal
+will cost. The system schedules the part for manufacture or
+sends new-part dimensions to a design computer, which
+generates electronic blueprints that flow directly into
+factory machines. Without introducing a single new robot,
+Federal trimmed to 20 days the average time it takes to turn
+around a new product; in urgent cases it can do it in three
+days. And the cost was only "several million dollars,"
+Federal says, because relatively little capital investment
+was involved.
+   Military spending cuts and fierce competition for fewer
+defense contracts were what spurred McDonnell Douglas Corp.
+to spend $10 million to begin introducing CIM to a Florida
+missile factory in 1989. Tomahawk missiles once traveled
+through the plant accompanied by a two-inch-thick manual. The
+company installed computer systems that automatically
+schedule manufacturing tasks, keep track of labor, and send
+instructions to computer screens at work stations along the
+assembly line, thus doing away with paper. Workers have time
+to do 30% more work now that they don't shuffle paper, says
+Walter Kurgas, deputy director of the Tomahawk operation.
+   Results like these are spurring a broad range of
+industries to consider CIM. Bechtel, for instance, has helped
+introduce CIM in a British potato-chip company, in Egypt's
+state petroleum works and in a California jail, where
+automated carts deliver food and laundry. Early CIM converts
+-- McDonnell Douglas, Hewlett-Packard Co., Digital Equipment
+Corp. and Allen-Bradley, to name a few -- are doing a brisk
+business selling the know-how they've acquired to CIM
+neophytes.
+   Still, CIM is tall on talk but short on reality. On close
+inspection, most companies are implementing only pieces of
+CIM. Motorola's pager plant, for example, hasn't yet tied
+information from the factory into an accounting system. Only
+11% of the manufacturers in a recent Ernst &amp; Young survey
+rated themselves as "high-level users" of CIM.
+   And technological roadblocks sometimes remain. Levi's,
+which wants to integrate most aspects of its business by
+1992, has found gaps that defy integration by computers.
+Fashion designers can use computers to create new fashions,
+but pattern makers must still take those concepts and
+manually cut patterns that are then converted to computer
+code and sent to cutting machines on the factory floor.
+   Technology, however, isn't the real problem. In a survey
+of Fortune 500 manufacturers by Advanced Manufacturing
+Research, 70% of the respondents said that people were the
+main stumbling block to integrating manufacturing; only 9%
+cited technological snafus.
+   At McDonnell's missile plant, for instance, the accounting
+department has been reluctant to accept computer-generated
+accounts of how much labor was spent making a missile, says
+Mr. Kurgas. Under the current system, a worker fills out a
+time card by hand and mails it to labor accounting, where
+someone checks it for errors and then punches the data into
+that department's computer. Under the proposed system, a
+computer would read a code on a worker's employee badge,
+record the worker's time and send it directly to the
+labor-accounting computer. Accounting-department employees
+"are reluctant to change what they currently have until you
+systematically prove to them it does at least as well," Mr.
+Kurgas says. "There develops a consistent and considerable
+roadblock until you prove what you set out to do."
+   Another people problem for CIM companies: Suppliers must
+be let into the integration game so they can automatically
+keep tabs on what parts the manufacturer needs when. Although
+fraternal ties with vendors have been common for decades in
+Japan, U.S. companies "tend to regard the supplier as their
+enemy," says Terry Ozan, national director of manufacturing
+services at Ernst &amp; Young.
+   Changing that view is tough, as DEC found last year when
+it began a program of sharing its CIM expertise with its
+suppliers. Its aim was to help them refine quality and create
+more reliable delivery schedules to match DEC's demand for
+just-in-time deliveries at its disk-drive plan. For decades,
+executives have been told to keep suppliers at arm's length,
+the better to squeeze them for lower prices and to keep them
+from leaking secrets. But, says Walter Bonin, a DEC planning
+manager, suddenly the company is supposed to do a turnabout
+and condone sharing of production information and technology
+with suppliers. "Flags have been raised in the legal
+department" and in the purchasing department, he says.
+   For defense contractors, the Pentagon is a party to be
+reckoned with. It is pressing McDonnell and other contractors
+to develop CIM systems that allow the Defense Department to
+"watch" a missile go through the entire manufacturing process
+to ensure that contractual requirements are being met. The
+department "also wants to look through us to our major
+contractors with same visibility," says Mr. Kurgas.
+   Making these and other changes is wrenching for many
+companies, and CIM believers concede that theirs is a
+yearslong pilgrimage. Their ultimate goal is an elusive
+nirvana called computer-integrated enterprise, or CIE. That
+means that a company must reach beyond manufacturing to hook
+together sales, factories, shipping, procurement, accounting
+and even outside suppliers into one gregarious computerized
+family. "We talk about the CIM journey," says Keith Glick,
+manager of engineering at DEC's disk-drive factory in
+Colorado Springs, Colo. "It's the journey to enterprise
+integration."
+   Can most companies successfully reach that destination?
+Mr. Turner, Levi's CIM manager, acknowledges that problems
+lie ahead. "The biggest drawback to CIM," he says, "is that
+you're searching for the Holy Grail. You may never find it."
+   ---
+   Mr. Yoder is a staff reporter in The Wall Street Journal's
+San Francisco bureau.
+</TEXT>
+</DOC>

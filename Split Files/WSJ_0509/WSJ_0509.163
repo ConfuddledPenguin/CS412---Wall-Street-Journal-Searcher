@@ -1,0 +1,164 @@
+
+<DOC>
+<DOCNO>
+WSJ900509-0005
+</DOCNO>
+<DOCID>
+900509-0005.
+</DOCID>
+<HL>
+   Technology:
+   Workstation
+   Options
+   Expanding
+   ----
+   By Stephen Kreider Yoder and Jacob M. Schlesinger
+   Staff Reporters of The Wall Street Journal
+</HL>
+<DATE>
+05/09/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B1
+</SO>
+<CO>
+   SUNW J.TOS DEC HWP
+</CO>
+<IN>
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+</IN>
+<LP>
+   The workstation is about to become cheaper and portable as
+well, continuing its penetration of the personal-computer
+market.
+   Sun Microsystems Inc., of Mountain View, Calif., is
+expected to unveil on Tuesday a new low-cost version of its
+popular Sparcstation that puts it in the price range of many
+personal computers. And Tokyo's Toshiba Corp., in a bid to
+expand its share of the rapidly growing market for
+workstations, said it would begin selling the world's first
+portable workstation.
+</LP>
+<TEXT>
+   Sun's machine, expected to cost just under $5,000, is just
+the latest in a technological leapfrogging game by computer
+makers; rivals say they will soon best Sun's machine with
+still faster, cheaper workstations.
+   Toshiba's announcement comes a month after Japanese rival
+Sony Corp. announced it would sell a portable workstation by
+late July. Toshiba said it hopes to begin production of its
+new machine, based on Sun's Sparc chip, in the U.S. by the
+end of the year, officials said at a Tokyo news conference.
+It is scheduled to go on sale in Japan in mid-July.
+   Called the Sparc LT model, it is the latest demonstration
+of Toshiba's ability to pack more and more computing power
+into smaller and smaller machines. The company, long a minor
+player in computer sales, has become a world leader in laptop
+personal computers in the past three years. The new
+workstation "is going to extend the market because you're
+going to be able to do more things with it," said Peter G.
+Wolff, a technology analyst with Kidder Peabody's Tokyo
+office. "It's an innovative step."
+   But many computer makers say the market for laptop
+workstations is limited. Since the main users of workstations
+are scientists and engineers, who typically work with
+equipment that isn't readily movable, the advantages of
+portability aren't as clear-cut as they are for
+personal-computer users.
+   In addition, workstations usually gain much of their
+usefulness from being hooked up to one another and to other
+computers. As a result, users aren't very likely to use them
+at home or on the road, as many business executives do with
+portable personal computers.
+   Workstations, which combine high speed with flashy
+graphics and usually run the Unix operating system, until
+recently have been high-priced desktop machines selling for
+$20,000 and up. But prices have fallen steeply since last
+year as makers worked toward the high end of the
+personal-computer market.
+   "The technology wars are really heating up and the
+technology price curve is getting steeper," said John Hime,
+vice president of systems products marketing at MIPS Computer
+Systems Inc. "Sun's got a great machine, but other companies
+like MIPS are introducing technology just as fast, if not
+faster."
+   The new Sun machine, called the Sparcstation SLC, will run
+at 12.5 million operations per second, analysts familiar with
+the machine say. The $5,000 price tag brings the computer
+well into the price range of high-end personal computers,
+which don't run as fast and have poorer graphics. Sun's
+cheapest machine now is the $8,995 Sparcstation 1-Plus.
+   Still, the Sun machine may lack important components. The
+SLC will be a stripped-down version of Sun's Sparcstation
+built into a 17-inch monochrome monitor with no disk drive
+and no ability to be expanded with add-in cards. So it will
+have to be tied into a network of other computers to be
+useful.
+   What's more, any low-priced workstation faces a basic
+hurdle: Most of the software programs that businesses use are
+written to run on Microsoft Corp.'s MSDOS operating system,
+not on the Unix operating system used by Sun.
+   Sun's rivals are critical of the new product. "I don't
+think they'll have the performance in the box to make up for
+all the things the box doesn't have," said Donald Gaubatz,
+group manager for workstations at Digital Equipment Corp.
+Digital began selling last year a $5,950 workstation that is
+only slightly slower than the Sparcstation, he said, adding
+that the company plans to keep the price competitively low.
+   MIPS, likewise, said it plans price cuts and performance
+improvements that will bring its machines in line with Sun's
+by this summer. Hewlett-Packard Co. plans to sell later this
+year a low-end workstation based on Motorola Inc.'s new 68040
+microprocessor chip. Hewlett now has the cheapest
+workstation, the $3,990 DN 2500, running at about 40% the
+speed of the new Sun machine, said Mark Tolliver, Hewlett's
+workstation-marketing manager. "We have no intention of
+surrendering that position," he said.
+   The new Toshiba machine, which weighs 17.7 pounds, has a
+fold-up screen. Company officials said it weighs a third as
+much as the basic Sun model sold in Japan, and takes up half
+the space. It has a processing speed of 13.2 mips and will
+sell in Japan for about two million yen (about $12,600).
+Toshiba expects to sell about 3,000 of the machines in Japan
+this year and about 14,000 next year.
+   But, in addition to concerns about the practicality of a
+laptop workstation, the Sparc LT has some technological
+constraints that may limit its use. It currently has only a
+built-in black and white screen. Color, often a crucial
+feature for the scientists and engineers who are the main
+workstation users, won't be available for more than two
+years. Unlike battery-operable laptop computers, the machine
+has to be plugged in.
+   Toshiba's market projections for laptops are "rubbish,"
+said Vicky Brown of International Data Corp. of Framington,
+Mass. "Can you see someone carrying 18 pounds on the bullet
+train? We're far away from the point where we're going to
+have a big market for laptop workstations."
+   Digital's Mr. Gaubatz agrees. Users of Unix workstations
+depend heavily on networks that tie them together with other
+machines, he said. "There will be some people who would find
+a reason to buy it," he said. But most users "are just too
+intimately connected to their network. You don't have that if
+you have the thing on your lap."
+   But Toshiba officials say that, with desk space more
+cramped in Japan than in the U.S., such smaller machines may
+have greater appeal in their home market. And they say they
+are simplifying the software to try and broaden the base of
+traditional workstation users.
+   Toshiba has been selling Sun workstations in Japan since
+1986, and a year ago signed an agreement with Sun allowing it
+to develop and manufacture machines based on the Sun system.
+"Sun welcomes the Sparc LT," said Scott McNealy, Sun's
+chairman, in a statement videotaped for yesterday's press
+conference. "This complementary product will expand the
+market for Sparc workstations and servers, just as the PC
+market was enhanced by the arrival of laptops."
+   The Japanese, who still have only a tiny share of the
+world computer market, have been jumping into the $6 billion
+workstation market. Sony is Japan's leader with its News
+workstation, which it started selling in 1987, and exporting
+the following year.
+   ---
+   Laurence Hooper contributed to this story.
+</TEXT>
+</DOC>

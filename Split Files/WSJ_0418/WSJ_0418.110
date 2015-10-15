@@ -1,0 +1,184 @@
+
+<DOC>
+<DOCNO>
+WSJ900418-0083
+</DOCNO>
+<DOCID>
+900418-0083.
+</DOCID>
+<HL>
+   Technology:
+   AT&amp;T Racing
+   To Boost Power
+   Of Fiber-Optics
+   ----
+   By John J. Keller
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+04/18/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B1
+</SO>
+<CO>
+   NIPNY T J.FUT
+</CO>
+<IN>
+COMMUNICATIONS TECHNOLOGY (CMT)
+</IN>
+<LP>
+   With equipment rivals hot on its trail, American Telephone
+&amp; Telegraph Co. is racing to develop optical communications
+products that can maximize the potential of fiber-optic
+networks and revolutionize communications for home and
+office.
+   Super high-speed light signals transmitted via fiber-optic
+systems can transport vast amounts of voice, data and
+television signals through ultrapure glass fibers the
+thickness of hair. The industry calls this broadband
+transmission.
+</LP>
+<TEXT>
+   But these signals must be converted to comparatively
+sluggish electronic signals before they can pass through the
+matrix of electronic gates that form current computerized
+exchanges. The challenge is to develop optical switches to
+eliminate that costly and inefficient conversion and unleash
+the full power of fiber-optics.
+   AT&amp;T Bell Laboratories successfully demonstrated last
+January an awkward-looking processor that did numerical
+calculations using light beams. Today, AT&amp;T Chairman Robert
+E. Allen is to tell the company's shareholders at its annual
+meeting in Los Angeles that AT&amp;T will begin shipping
+communications products using the new technology in about
+five years.
+   Several teams of Bell Labs scientists and engineers have
+begun designing prototype telecommunications products, using
+as their guide the designs of Alan Huang and his team of
+researchers who developed the AT&amp;T optical processor.
+   "Every big phone company, including all the Bell
+companies, is betting on broadband transmission in the future
+to handle such things as high-definition TV and fax. And
+broadband networks will transmit communications traffic in
+terabits, or trillions of bits per second," says H. Scott
+Hinton, chief of Bell Labs' photonic switching department.
+AT&amp;T's flagship electronic digital switch, the 5ESS,
+currently handles five billion bits per second. "We'll need
+switches that are three orders of magnitude more powerful
+than conventional systems," Mr. Hinton says.
+   AT&amp;T itself could benefit from using optical switches to
+accommodate heavy traffic. AT&amp;T is the world's largest
+carrier of long-distance voice and data traffic. And it is
+adding new traffic-intensive services, including network
+management for big corporate customers and financial services
+for businesses and consumers.
+   Mr. Hinton acknowledges that Japanese suppliers present
+the biggest long-term threat. NEC Corp. and Mitsubishi
+ELECTRIC Co. have already displayed their own prototypes of
+optical processors. And Nippon Telegraph &amp; Telephone Corp. is
+working hard on the technology, and could license its designs
+to its key equipment suppliers, NEC and Fujitsu Ltd.
+   AT&amp;T's equipment arm, AT&amp;T Network Systems, has been
+struggling to fend off foreign rivals in the market for
+highly complex switching systems used to route telephone
+traffic. Furthermore, orders for these switching systems are
+tapering off and profits from them are razor thin, so AT&amp;T's
+rivals -- chiefly Japan's NEC and Fujitsu, Canada's Northern
+Telecom Ltd. and France's Alcatel N.V. -- are focusing on the
+market for the transmission equipment that pumps phone
+traffic.
+   In just five years, NEC and Fujitsu have built an
+impressive base in the U.S. fiber-optic transmission
+equipment market, capturing a combined 16% vs. AT&amp;T's 52%,
+Rockwell International Corp.'s 21% and Northern Telecom's 6%,
+according to Northern Business Information/Datapro, a market
+research firm based in New York.
+   A dogfight has already broken out over a new group of
+fiber-optic products built to a new industry standard called
+Sonet, or Synchronous Optical Network. Developed by Bell
+Communications Research and the world's telecommunications
+authorities, the Sonet industry standard is expected to
+expand the base of transmission equipment suppliers, thus
+increasing competition. Sonet should also allow the phone
+companies to improve maintenance and boost profits by weeding
+out inefficient systems that need a lot of expensive gear to
+help them communicate.
+   This battle is expected to produce a huge market as phone
+companies accelerate their installation plans. From next to
+nothing today, the Sonet business will hit $250 million by
+1994 and quadruple that by 1997, predicts Michael Miller, an
+analyst at Northern Business Information/Datapro. After 2000,
+the sky could be the limit as the phone companies begin to
+transform all of their networks -- down to the last mile to
+home and office -- to Sonet systems.
+   "Under the Sonet concept, control is no longer centralized
+in the switch, but decentralized so that the user, which
+could be the phone company or a big corporate network center,
+has more control over their communications transmission,"
+says Eli Noam, a commissioner with New York's Public Service
+Commission and founding director of Columbia University's
+Center for Telecommunications and Information Studies.
+   None of these Sonet-based systems will work to full
+potential until engineers develop optical exchanges with the
+capacity to handle the enormous amounts of traffic generated
+by photonic transmission systems.
+   AT&amp;T is off to a good start. Bell Labs engineers made two
+significant breakthroughs in the last few months on optical
+technology. In December, AT&amp;T announced that its scientists
+had developed a combined photonic and electronic integrated
+circuit to process information. The gallium-arsenide chip
+contains 2,048 devices called S-SEEDs, or symmetric self
+electro-optic effect devices, and works something like an
+electronic transistor. This means that light beams can be
+switched on and off -- the manner in which computers
+communicate and do calculations -- in less than one billionth
+of a second.
+   Moreover, on April 11 AT&amp;T announced at a computer
+symposium in Kobe, Japan, that its scientists had built a
+connecting device for linking integrated circuits in an
+optical network. The modules contain surface-emitting lasers,
+lenses and mirrors in a sandwich-like quartz chip that is
+one-eighth of an inch thick and one inch in diameter. In
+effect, these devices should enable Bell labs scientists to
+shrink Mr. Huang's crude-looking optical processor and begin
+implementing the design in AT&amp;T's future switches.
+   The first of these systems will be introduced in 1995, say
+individuals familiar with AT&amp;T's plans. The system, called a
+digital access cross-connect, or DACCS, is a transmission
+system that actually works as a switch to transfer traffic
+from one high-speed trunk line to another and convert the
+traffic to lower speed electronic signals that can be handled
+by the central office switch. With an optical DACCS, phone
+companies will be able to switch broadband traffic and send
+it to the home or office. After 1995, these individuals say,
+AT&amp;T will insert an optical switch into its flagship
+electronic exchange, the 5ESS, turning the local switching
+office in phone networks into an exchange with several
+thousand times the capacity of today's switches.
+   Where these optical systems will first find their way into
+the nation's phone system is unknown, but AT&amp;T insiders say
+AT&amp;T itself will likely test the systems in its own
+long-distance network within three years before offering them
+to the Bell companies.
+   ---
+                 Fiber Optic Players
+                                                                                                       
+
+   Shares of the fiber optic transmission equipment market
+worth $795 million in 1989
+                                                                                                       
+
+            AT&amp;T            52.0%
+            Rockwell        21.0%
+            NEC             12.0%
+            No. Telecom      6.0%
+            Fujitsu          4.0%
+            Telco Systems    4.0%
+            Alcatel          0.5%
+            Siemens          0.5%
+                                                                                                       
+
+   Source: Northern Business Information
+</TEXT>
+</DOC>

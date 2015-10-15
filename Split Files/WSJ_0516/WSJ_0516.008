@@ -1,0 +1,67 @@
+
+<DOC>
+<DOCNO>
+WSJ900516-0180
+</DOCNO>
+<DOCID>
+900516-0180.
+</DOCID>
+<HL>
+   Technology:
+   IBM Unveils Details
+   Of Major Expansion
+   Of CallPath Software
+</HL>
+<DATE>
+05/16/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B4
+</SO>
+<CO>
+   IBM NT G.SIE T
+</CO>
+<IN>
+COMMUNICATIONS TECHNOLOGY (CMT)
+SOFTWARE (SOF)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+</IN>
+<LP>
+   NEW YORK -- International Business Machines Corp.
+unveiled, as expected, a major expansion of CallPath, a
+software product that links telephone switches to computers.
+   IBM said a new CallPath product will allow its
+minicomputers to talk to switches made by four leading
+telecommunications companies -- American Telephone &amp;
+Telegraph Co., Northern Telecom Inc., Rolm Co. and Siemens
+AG. Previously, CallPath had worked only with switches made
+by Rolm, which IBM owns in partnership with Siemens.
+</LP>
+<TEXT>
+   Northern Telecom, Rolm and Siemens announced that their
+links to CallPath would be available immediately. AT&amp;T said
+it will work with IBM to enable its switches to talk to
+CallPath, though neither company announced a schedule.
+   IBM, based in Armonk, N.Y., also announced new CallPath
+capabilities and a set of protocols for companies that write
+software that works with the product. And it promised that
+CallPath will soon work with other switches and IBM
+mainframes and personal computers, too.
+   Taken together, the announcements suggest that CallPath
+will emerge as a standard in the burgeoning field of
+"voice-integrated applications."
+   "This indicates an eagerness {on IBM's part} to connect to
+the broad range of communications vendors' switches," said
+Carl Pitasi of the Gartner Group, market researchers based in
+Stamford, Conn. "The old CallPath product is a teeny shadow
+of what this will become."
+   CallPath identifies the origin or destination of calls
+made through a telephone switch known as a PBX, for private
+branch exchange. Then it automatically pulls information
+about callers from an IBM computer. Telephone operators --
+customer service representatives or brokers, for example --
+can see callers' files displayed on a screen as soon as they
+pick up the phone, which saves time and opens up new
+marketing opportunities.
+</TEXT>
+</DOC>

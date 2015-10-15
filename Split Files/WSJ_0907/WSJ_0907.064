@@ -1,0 +1,76 @@
+
+<DOC>
+<DOCNO>
+WSJ900907-0130
+</DOCNO>
+<DOCID>
+900907-0130.
+</DOCID>
+<HL>
+   Technology:
+   IBM Is Entering
+   Software Venture
+   With Metaphor
+   ----
+   By Paul B. Carroll
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+09/07/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B4
+</SO>
+<CO>
+   IBM
+</CO>
+<IN>
+SOFTWARE (SOF)
+</IN>
+<LP>
+   International Business Machines Corp. announced a joint
+venture with Metaphor Computer Systems Inc. to produce an
+underlying layer of software that they hope will speed
+development of personal-computer software applications.
+   The software industry would welcome any progress: Slow
+development of software is often cited as holding back sales
+of both software and hardware in the computer industry.
+</LP>
+<TEXT>
+   At the same time, there is a bewildering array of software
+and hardware "environments" competing for the affections of
+companies that develop software applications. Thus, some
+companies may see the IBM-Metaphor venture as simply
+confusing issues further by adding yet another software
+environment. In any case, the venture's software won't be
+available for a couple of years.
+   "I think the venture is interesting. I think it's worth
+watching. I think Metaphor has very good software
+interfaces," said Michele Preston, a securities analyst at
+Cowen &amp; Co. "But it's going to take some time, and as we all
+know the number of changes that can take place in the
+(software) world in two years is enormous."
+   The two companies will take advantage of some advances in
+a fairly new type of programming, called object-oriented
+programming. Among other things, object-oriented work lets
+programmers re-use sections of code that others have already
+written and makes it easier for programmers to update
+existing software. Steven P. Jobs's Next Inc. workstations,
+for example, run software developed in an object-oriented
+environment, and software developers have described that
+environment as the most innovative and welcome feature of the
+machines.
+   The software will be designed for use with either the OS/2
+or Unix operating system -- a layer of software that controls
+the basic operations of a computer. The software won't mean
+that someone using an OS/2-based application on a PC could
+use it on a workstation using a Unix application. But it
+should make it easier for a programmer to translate software
+from one operating system to the other.
+   David Liddle, chairman of closely held Metaphor, Mountain
+View, Calif., said that as many as 200 programmers will be
+involved in the effort. He said IBM will sell the software on
+its own machines, while Metaphor will have the right to sell
+the software to other hardware makers.
+</TEXT>
+</DOC>
