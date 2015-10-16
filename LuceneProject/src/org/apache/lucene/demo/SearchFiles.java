@@ -233,6 +233,8 @@ public class SearchFiles {
 	  System.out.println(fi.getDocumentNumber());
 	  System.out.println("\n-------" + article + " DOC ID--------");
 	  System.out.println(fi.getDocumentId());
+	  System.out.println("\n-------" + article + " ARTICLE DATE--------");
+	  System.out.println(fi.getDate());
 	  System.out.println("\n-------" + article + " HEADLINE--------");
 	  System.out.println(fi.getHeadline());
 	  System.out.println("\n-------" + article + " LEADING PARAGRAPH--------");
