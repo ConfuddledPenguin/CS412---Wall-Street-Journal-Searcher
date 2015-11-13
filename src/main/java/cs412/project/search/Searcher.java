@@ -2,8 +2,6 @@ package cs412.project.search;
 
 import java.util.List;
 
-import org.apache.lucene.demo.SearchFiles;
-
 import cs412.project.model.Result;
 import cs412.project.model.SearchObject;
 

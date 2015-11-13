@@ -1,4 +1,5 @@
-package org.apache.lucene.demo;
+package cs412.project.search;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
