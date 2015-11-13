@@ -22,7 +22,10 @@ public class WebAppInit implements WebApplicationInitializer {
         WebApplicationContext context = getContext();
         servletContext.addListener(new ContextLoaderListener(context));
 
-        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("DispatcherServlet", new DispatcherServlet(context));
+        DispatcherServlet servlet = new DispatcherServlet(context);
+        servlet.setThrowExceptionIfNoHandlerFound(true);
+
+        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("DispatcherServlet", servlet);
         dispatcher.setLoadOnStartup(1);
         dispatcher.addMapping("*.json");
     }

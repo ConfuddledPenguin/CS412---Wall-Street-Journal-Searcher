@@ -43,4 +43,9 @@ public class JSONResponse<T> {
     public void setResult(T result) {
         this.result = result;
     }
+
+	@Override
+	public String toString() {
+		return "{ \n\t\"successful\": " + successful + ",\n\t\"message\"\2: \"" + message + "\",\n\t\"meta\t: " + meta + ",\n\t\"result\": " + result + "\n}";
+	}
 }

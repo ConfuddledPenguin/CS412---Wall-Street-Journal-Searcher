@@ -7,6 +7,7 @@ import cs412.project.search.SearchI;
 import cs412.project.search.Searcher;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -32,4 +33,26 @@ public class SearchCtrl {
 
         return response;
     }
+
+    @RequestMapping(value = "/api/autoSearch", method = RequestMethod.POST)
+    public JSONResponse<List<String>> autoSearch(@RequestBody SearchObject searchObject){
+
+        System.out.println(searchObject.getSearchString());
+        System.out.println(searchObject.getTest());
+
+        SearchI searcher = new Searcher();
+
+        List<Result> results = searcher.performSearch(searchObject);
+
+        JSONResponse<List<String>> response = new JSONResponse<>();
+
+	    List<String> out = new ArrayList<>();
+	    out.add("Not done yet, go away");
+
+        response.setSuccessful(false);
+        response.setResult(out);
+
+        return response;
+    }
+
 }

@@ -6,7 +6,9 @@ package cs412.project.model;
 public class SearchObject {
 
     private String searchString = null;
-    private String test = null;
+    private String author = null;
+	private String title = null;
+	private String date = null;
 
     public String getSearchString() {
         return searchString;
@@ -16,11 +18,27 @@ public class SearchObject {
         this.searchString = searchString;
     }
 
-    public String getTest() {
-        return test;
-    }
+	public String getAuthor() {
+		return author;
+	}
 
-    public void setTest(String test) {
-        this.test = test;
-    }
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
 }
