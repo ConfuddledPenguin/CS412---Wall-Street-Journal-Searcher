@@ -46,7 +46,67 @@ import java.util.Date;
  */
 public class IndexFiles {
   
-  private IndexFiles() {}
+  public IndexFiles(String docsPath, String indexPath) {
+
+
+      boolean create = true;
+
+      if (docsPath == null) {
+          System.exit(1);
+      }
+
+      final File docDir = new File(docsPath);
+      if (!docDir.exists() || !docDir.canRead()) {
+          System.out.println("Document directory '" +docDir.getAbsolutePath()+ "' does not exist or is not readable, please check the path");
+          System.exit(1);
+      }
+
+      Date start = new Date();
+      try {
+          System.out.println("Indexing to directory '" + indexPath + "'...");
+
+          Directory dir = FSDirectory.open(new File(indexPath).toPath());
+          Analyzer analyzer = new StandardAnalyzer();
+          IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
+
+          if (create) {
+              // Create a new index in the directory, removing any
+              // previously indexed documents:
+              iwc.setOpenMode(OpenMode.CREATE);
+          } else {
+              // Add new documents to an existing index:
+              iwc.setOpenMode(OpenMode.CREATE_OR_APPEND);
+          }
+
+          // Optional: for better indexing performance, if you
+          // are indexing many documents, increase the RAM
+          // buffer.  But if you do this, increase the max heap
+          // size to the JVM (eg add -Xmx512m or -Xmx1g):
+          //
+          // iwc.setRAMBufferSizeMB(256.0);
+
+          IndexWriter writer = new IndexWriter(dir, iwc);
+          indexDocs(writer, docDir);
+
+          // NOTE: if you want to maximize search performance,
+          // you can optionally call forceMerge here.  This can be
+          // a terribly costly operation, so generally it's only
+          // worth it when your index is relatively static (ie
+          // you're done adding documents to it):
+          //
+          // writer.forceMerge(1);
+
+          writer.close();
+
+          Date end = new Date();
+          System.out.println(end.getTime() - start.getTime() + " total milliseconds");
+
+      } catch (IOException e) {
+          System.out.println(" caught a " + e.getClass() +
+                  "\n with message: " + e.getMessage());
+      }
+
+  }
 
   /** Index all text files under a directory. */
   public static void main(String[] args) {
@@ -57,7 +117,7 @@ public class IndexFiles {
     String indexPath = "index";
    // String docsPath = "H:\\data set 4";
     //CHANGE BELOW TO YOUR PATH
-    String docsPath = "C:\\Users\\Steven\\Documents\\Split Files";
+    String docsPath = "Split Files/";
     boolean create = true;
     for(int i=0;i<args.length;i++) {
       if ("-index".equals(args[i])) {
@@ -81,7 +141,7 @@ public class IndexFiles {
       System.out.println("Document directory '" +docDir.getAbsolutePath()+ "' does not exist or is not readable, please check the path");
       System.exit(1);
     }
-    
+
     Date start = new Date();
     try {
       System.out.println("Indexing to directory '" + indexPath + "'...");

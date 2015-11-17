@@ -8,6 +8,8 @@ public class Result {
     String filepath;
     String title;
     String abstractText;
+    String author;
+    String date;
 
     public Result(String filepath, String title, String abstractText) {
         this.filepath = filepath;
@@ -29,5 +31,29 @@ public class Result {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getAbstractText() {
+        return abstractText;
+    }
+
+    public void setAbstractText(String abstractText) {
+        this.abstractText = abstractText;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

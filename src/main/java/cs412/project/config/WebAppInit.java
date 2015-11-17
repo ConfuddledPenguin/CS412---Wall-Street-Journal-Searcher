@@ -1,5 +1,6 @@
 package cs412.project.config;
 
+import cs412.project.search.IndexFiles;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.WebApplicationContext;
@@ -19,6 +20,8 @@ public class WebAppInit implements WebApplicationInitializer {
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
 
+        performIndexing();
+
         WebApplicationContext context = getContext();
         servletContext.addListener(new ContextLoaderListener(context));
 
@@ -35,6 +38,12 @@ public class WebAppInit implements WebApplicationInitializer {
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
         context.register(WebConfig.class);
         return context;
+    }
+
+    private void performIndexing(){
+
+        new IndexFiles(Config.filesPath, Config.indexPath);
+
     }
 
 }

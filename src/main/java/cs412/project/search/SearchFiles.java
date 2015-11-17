@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import cs412.project.config.Config;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
@@ -46,7 +47,7 @@ public class SearchFiles {
 //      System.exit(0);
 //    }
 
-    String index = "index";
+    String index = Config.indexPath;
     String field = "contents";
     String queries = null;
     int repeat = 0;
@@ -254,8 +255,11 @@ public class SearchFiles {
 	  System.out.println(fi.getLeadingParagraph());
 	  System.out.println("\n-------" + article + " ARTICLE TEXT--------");
 	  System.out.println(fi.getArticleText()+"\n");
-	  
-	  resultsList.add(new Result(path, fi.getHeadline(), fi.getArticleText()));
+
+      Result r = new Result(path, fi.getHeadline(), fi.getArticleText());
+      r.setDate(fi.getDate());
+
+	  resultsList.add(r);
   }
   
   public List<Result> getResultsList(){
