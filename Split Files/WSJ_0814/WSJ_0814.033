@@ -1,0 +1,196 @@
+
+<DOC>
+<DOCNO>
+WSJ900814-0106
+</DOCNO>
+<DOCID>
+900814-0106.
+</DOCID>
+<HL>
+   Science:
+   Lilly's New Supercomputer Spurs a Race
+   For Hardware to Quicken Drug Research
+   ----
+   By Sue Shellenbarger
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+08/14/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B1
+</SO>
+<CO>
+   LLY CYR
+</CO>
+<IN>
+DRUG MANUFACTURERS (DRG)
+MEDICAL AND BIOTECHNOLOGY (MTC)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+</IN>
+<LP>
+   INDIANAPOLIS -- In Eli Lilly &amp; Co.'s rabbit warren of
+research laboratories, scientists wield mostly medieval tools
+-- from test tubes and flasks to beakers and diagrams -- in
+their quest for new drugs.
+   But purring away at the center of it all is a late 20th
+century anomaly: a $12 million supercomputer.
+</LP>
+<TEXT>
+   In a gamble that startled its conservative industry, the
+No. 4 U.S. drug maker recently became the first
+pharmaceutical company to install its own supercomputer -- a
+Cray-2, one of the most powerful machines made by Cray
+Research Inc., the leading supercomputer maker.
+   The machine can't discover drugs, nor does it guarantee
+that Lilly's R&amp;D record will improve. But it does add to
+Lilly scientists' bag of tricks a three-ton tool of
+unprecedented power, amplifying their ability to experiment
+with molecular images and sift through endless new-drug
+candidates.
+   Lilly's purchase has also helped touch off an industrywide
+new-hardware race. Industry leader Merck &amp; Co. is tapping
+supercomputer-like IBM equipment in a pact with International
+Business Machines Corp. Monsanto Co. leased a supercomputer,
+and Abbott Laboratories, Schering-Plough Corp. and others
+have upgraded their computer capabilities as well.
+   The wave of investment has raised hopes of streamlining
+the riskiest and most expensive research process in U.S.
+industry: the search for breakthrough drugs. Scientists have
+been studying images of molecules on computer screens for
+more than a decade, but the latest trend in computer
+equipment is carrying them far beyond the tinkering of the
+past. For the first time, computers and workstations are
+powerful and sophisticated enough to grapple with models of
+the large, complex human proteins and enzymes involved in
+today's cutting-edge drug research.
+   Instead of just presenting fixed visual models, the new
+technology enables scientists to manipulate images of big
+molecules and watch them interact with other substances in
+human-like environments. It allows researchers to replace
+slow, near-random laboratory testing of hundreds of
+substances with more rapid theoretical screening.
+   "Three years ago, there wasn't enough computational power
+or enough knowledge to make this {new technology} useful,"
+says Charles T. Casale, president of Aberdeen Group, a
+Boston-based computer consulting and research group. Now "the
+question is, `Who is going to get there first with a
+significant breakthrough?'"
+   The new technology also holds out the hope of streamlining
+human tests of experimental compounds. By helping researchers
+analyze test data for a wider range of doses on more patient
+groups, for example, computers could help identify safer,
+potentially less toxic doses.
+   For the first time, some companies are even giving
+computers partial credit for discoveries. Schering-Plough
+cites computer techniques in the development of a
+schizophrenia drug now being tested on humans. Novo Nordisk
+A/S says computers helped speed up discovery of an insulin
+product, also in human trials.
+   Some believe computer-assisted design will have as big an
+impact on pharmaceutical research as it did on the auto, oil
+and aerospace industries in the 1970s. "Over the next
+decade," says Larry L. Smarr, director of the National Center
+for Supercomputing Applications at the University of
+Illinois, "supercomputer simulation will become one of the
+pillars of research in pharmaceuticals."
+   Applying computers to the arcane art of drug research is a
+gamble. Unlike car fenders and aerospace parts, new drugs
+can't be engineered based on existing knowledge. Scientific
+theory is lacking, and the molecules involved are too
+complex. Many have as many as 5,000 atoms and look like fuzzy
+balls when reproduced on screen. Designing a drug from
+scratch by computer would require more mathematical knowledge
+and computational power than exists today.
+   Instead, scientists must apply a combination of skill,
+experience, intuition and sheer luck to identify a potential
+drug for a particular disease. The industry screens an
+estimated 10,000 compounds for every one that reaches the
+market, a process that typically takes 10 to 12 years and
+costs more than $100 million. The odds of success are so low
+that oil wildcatters have a "sure thing" by comparison, Mr.
+Casale says.
+   That hasn't stopped some computer vendors from making
+outrageous claims for their offerings. One European software
+vendor even promised its product could design drugs from
+start to finish.
+   For their part, drug makers are desperate to speed up the
+discovery process. Although R&amp;D spending is soaring, generic
+products are slashing the profitable life of brand-name
+drugs. Rising international competition is holding down drug
+prices and eroding U.S. companies' share of the world market.
+To sustain their current profitability, drug makers must
+improve R&amp;D returns.
+   No one is betting bigger on new computer technology to win
+that race than Lilly. With its R&amp;D spending rising at a rate
+of 16% to 18% a year, Lilly has scored some major successes,
+fielding the fast-selling new antidepressant Prozac and
+diversifying its product line away from antibiotics.
+Nevertheless, "they don't have the best lineup of products
+over the next one or two years," says Mary Ellen McCarthy, an
+analyst with Shearson Lehman Hutton.
+   With no way to project the bottom-line impact of new
+computer technology, the Cray purchase "boils down to a leap
+of faith -- a gamble," admits Mel Perelman, a Lilly vice
+president and president of Lilly Research Laboratories.
+   Whatever the outcome, there are no signs of doubt in
+Lilly's laboratories. Scientists are already using the
+supercomputer to study insulin compounds and potential cures
+for AIDS and Alzheimer's disease, among other things.
+Voluntary use of the new machine in the first few weeks after
+its late-May installation rose far faster than expected. "It
+has surprised us continually," says John S. Wold, executive
+director of Lilly Research Laboratories.
+   Desktop terminals all over Lilly's sprawling headquarters
+are hooked up to the Cray. More than 40 Lilly scientists have
+taken supercomputer training at the University of Illinois's
+National Center for Supercomputer Applications. Lilly has
+even turned the machine -- a red-and-black cylinder about the
+size of an airline ticket counter -- into a tourist
+attraction, ensconcing it behind a panel of smoked glass in a
+video-equipped visitors' gallery.
+   For researchers like James Wikel, a senior chemist, the
+machine is a powerful aid to the imagination. Once restricted
+to clumsy ball-and-stick models of molecules of the kind
+common in chemistry classrooms, he is beginning to be able to
+construct a big enzyme on his screen, study the relevant
+"receptor" site, and test its reaction to various drug
+candidates.
+   On a computer screen in one of Lilly's modeling labs, he
+shows a visitor a rotating, multi-hued image of a complex
+human enzyme. Buried within its honeycomb-like maze of atoms
+are clues to the enzyme's biological activity that could
+yield insights into ways to block the AIDS virus.
+   Whether he is jogging, relaxing at home or commuting to
+work, the chemist carries such molecular images with him. All
+the while, consciously or unconsciously, his mind seeks the
+new scientific insights of which breakthrough drugs are born.
+   Without the computer, "I would have to start with
+something like this," Mr. Wikel says, blackening the screen
+by switching off his terminal. Now, he says, "I can
+essentially walk all the way around {the molecule} as if it
+were a table in the middle of the room, to get a view from
+all angles."
+   The images "will spring forth . . . when you're not
+thinking about it consciously," Mr. Wikel says. "Suddenly,
+something will click and you'll say, `Aha] That's what I was
+looking for.'" That "aha factor" -- the "eureka principle,"
+as Roger G. Harrison, Lilly's director of organic and
+physical chemistry research, calls it -- is the key to
+breakthroughs.
+   Lilly executives aren't making any promises about the new
+technology. Indeed, the science of new-drug research is
+widely seen as a mature field, "with the `easy' discoveries
+well in the past and the easy-to-cure diseases already
+cured," Mr. Casale wrote in a report on the new technology.
+"New discoveries cost more, take longer and typically are
+accompanied by side effects often undiscovered for years."
+   Nevertheless, Lilly scientists are confident that "we're
+closer and closer to dealing with these uncertainties than we
+ever have been," says Riaz Abdulla, Lilly's head of
+supercomputer applications.
+   The supercomputer "puts us in a better competitive
+position to really come up with the compounds of the future,"
+Mr. Harrison adds. "Our great discoveries are yet to come."
+</TEXT>
+</DOC>

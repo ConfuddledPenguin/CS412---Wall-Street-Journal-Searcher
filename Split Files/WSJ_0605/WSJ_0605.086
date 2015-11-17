@@ -1,0 +1,96 @@
+
+<DOC>
+<DOCNO>
+WSJ900605-0074
+</DOCNO>
+<DOCID>
+900605-0074.
+</DOCID>
+<HL>
+   Technology:
+   AT&amp;T Unit Unveils
+   Two Dozen Products
+   At Computer Show
+   ----
+   By John J. Keller
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+06/05/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B4
+</SO>
+<CO>
+   T INTC TDM NOVL
+</CO>
+<IN>
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+</IN>
+<LP>
+   American Telephone &amp; Telegraph Co.'s computer unit
+unveiled two dozen products, including powerful Unix
+software-based servers, personal computers and upgrades to
+its existing products.
+   Chief among the new products are so-called server systems,
+which coordinate the flow of data and storage of information
+on a network of personal computers. One, called the
+StarServer E, uses the i486 microprocessor made by Intel
+Corp. The other server is a fault-tolerant machine designed
+by Cupertino, Calif.-based Tandem Computers Inc. and New
+York-based AT&amp;T and is built by Tandem.
+</LP>
+<TEXT>
+   The StarServer E, which AT&amp;T will begin shipping next
+month, is designed to use between one and four computer
+processors. System performance starts at 25 million
+instructions per second with one processor and increases by
+25% each time a new processor is added for a total 106 MIPS,
+according to AT&amp;T. The system's i486 chip runs one-third
+faster than other i486 chips now in use.
+   "No other machine in the market has that kind of
+performance," said Richard A. McGuinn, president of AT&amp;T
+Computer Systems. "It's hot." However, competitors such as
+Compaq Computer Corp., Houston, and netFRAME Systems Inc.,
+Milpitas, Calif., offer competing servers using Intel's 486.
+But neither use the Unix software operating system designed
+by AT&amp;T.
+   "The Unix market is a little overcrowded right now," said
+Enzo Torresi, netFRAME's president. "We're taking a different
+approach, using Netware software, but by first quarter of
+1991 we'll introduce a Unix-based system." Netware is a
+competing software made by Novell Inc., Provo, Utah.
+   The fault-tolerant machine, which AT&amp;T said is available
+for shipments now, is designed for telecommunications and
+other applications such as financial transaction services
+that cannot afford a computer system failure. The Tandem
+machine will diagnose itself when it has a problem,
+automatically call a service center and the center will send
+out a replacement part, which Mr. McGuinn said can be snapped
+into place by "even a clerk."
+   AT&amp;T made its product announcement at the COMDEX/Spring
+'90 computer show in Atlanta. It said it would build the
+StarServer E at its Little Rock, Ark., plant, which recently
+began volume production of the personal computer that AT&amp;T
+designed with Intel.
+   AT&amp;T also unveiled new versions of its 6386 personal
+computer and upgrades for its 3B2 line of minicomputers. One
+6386 model can be upgraded to an i486-based system without
+having to buy a new PC. Another unit, called the 6386SX, can
+be bought without a disk and is used in large networks
+controlled by server systems. The 3B2 upgrades include
+enhanced Unix software and improved data-networking
+functions.
+   Rikki Kirzner, senior industry analyst at market
+researcher Dataquest Inc., said AT&amp;T's new products "by
+themselves are OK. They're nice middle-of-the-road
+competitive products." What's impressive, she said, is how
+they fit well with AT&amp;T's strategy to be a systems
+integrator.
+   "AT&amp;T wants to be the womb-to-tomb supplier in computer
+systems just like they are in phone systems," she said. If
+you look at the company's products and partnerships over the
+last year, you're starting to see a very strong set of
+{products} emerging."
+</TEXT>
+</DOC>

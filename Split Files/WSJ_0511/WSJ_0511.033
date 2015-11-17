@@ -1,0 +1,84 @@
+
+<DOC>
+<DOCNO>
+WSJ900511-0158
+</DOCNO>
+<DOCID>
+900511-0158.
+</DOCID>
+<HL>
+   Technology:
+   Motorola Inc.
+   Plans to Unveil
+   Superfast Chip
+   ----
+   By Stephen Kreider Yoder
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+05/11/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B5
+</SO>
+<CO>
+   MOT
+</CO>
+<IN>
+SEMICONDUCTORS, INTEGRATED CHIPS (SEM)
+</IN>
+<LP>
+   Motorola Inc. said it plans to introduce Monday a computer
+chip it claims runs as fast as some supercomputers and that
+can create color video, stereo sound and graphics signals --
+the elements of a technology called multimedia.
+   Motorola is pitting the new chip, called the 96002,
+against arch-rival Intel Corp.'s superfast 80860 chip.
+Intel's chip was introduced last year with much fanfare, and
+has been a big success in some of the applications at which
+Motorola is aiming.
+</LP>
+<TEXT>
+   "We're giving you more processing power for fewer dollars"
+than Intel, said Mike Collins, Motorola's marketing manager
+for the chip. Over 150 customers world-wide have requested
+supplies of the chip, Motorola added.
+   But the chip may be handicapped by its lateness to market.
+Intel already has signed up some of the customers who might
+have designed the Motorola chip into their products, had it
+been available last year as was Intel's, said Michael Slater,
+editor of Microprocessor Report, a newsletter.
+   Although the 96002 does many tasks better than does the
+Intel chip, Mr. Slater said, "the prospects would have been
+better had it been here a year earlier."
+   The Motorola chip's forte will be in computers that
+process the huge amounts of digital data needed to represent
+moving pictures, voices and three-dimensional graphics using
+a technique called digital-signal processing.
+   The Schaumburg, Ill., company said that customers already
+are designing the chip into products such as color laser
+printers, navigation systems to keep track of ships around
+the globe and so-called CAT-scanners used by doctors to look
+into the human body.
+   One company, Ariel Corp., Highland Park, N.J., has
+designed the chip into an add-on board meant to let personal
+computers perform multimedia tasks by processing sound and
+moving-video data, something conventional chips are too slow
+to do.
+   One of the chip's strengths for multimedia tasks is its
+speed in the type of calculation needed for digital-signal
+processing. Motorola said the 96002 will process 165 million
+operations -- such as addition or multiplication -- every
+second; Intel's 80860 runs at only 99 million operations a
+second. Another plus is its price: $750 for sample chips that
+will be available Monday, or 65% cheaper than Intel's
+mass-produced chip, Motorola added.
+   The chip is fast in part because it crams in functions
+that are usually done by additional chips. It also sports a
+unique feature: using a house as an analogy, older chips
+crowd incoming and outgoing data through the same front door,
+or "port"; Motorola's new chip can take new data through the
+front door while sending completed calculations or commands
+out the back door.
+</TEXT>
+</DOC>

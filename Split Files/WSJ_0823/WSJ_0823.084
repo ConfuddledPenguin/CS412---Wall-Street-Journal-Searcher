@@ -1,0 +1,197 @@
+
+<DOC>
+<DOCNO>
+WSJ900823-0051
+</DOCNO>
+<DOCID>
+900823-0051.
+</DOCID>
+<HL>
+   Your Money Matters:
+   For Risk-Minded, Oil-Option Strategies to Limit Losses
+   ----
+   By Stanley W. Angrist
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+08/23/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE C1
+</SO>
+<IN>
+PETROLEUM (PET)
+COMMODITY NEWS, FARM PRODUCTS (CMD)
+</IN>
+<LP>
+   With the Persian Gulf crisis unfolding hour by hour, the
+highly explosive oil market may be the last place for most
+individual investors just now.
+   But for people who can afford to take some calculated
+risks, some experienced energy traders say it is possible to
+bet on oil prices without losing more than your shirt.
+Speculative investment strategies using options contracts,
+they note, limit the potential loss to the amount put up --
+the "premium" paid to buy the option.
+</LP>
+<TEXT>
+   "Commodity markets are normally some of the riskiest
+around, but recent events have made them even worse," says
+James Colburn, energy-options strategist at E.D.&amp; F. Man Inc.
+in New York. Even so, he says, there are some possible
+options plays for people who "are able to put money aside for
+high-risk situations."
+   Options give holders the right -- but not the obligation
+-- to sell (a put option) or to buy (a call option) something
+at a fixed price for a specified period of time. In the case
+of oil, that something is a futures contract for delivery of
+oil several weeks or months from now.
+   Speculators don't have to exercise the options to profit,
+however. If they guess right about oil prices, they simply
+sell the options. Put options gain in price when the
+underlying futures contract declines in value, while call
+options increase in price when the underlying futures
+contract appreciates.
+   If speculators guess wrong, the options expire worthless.
+But the most they can lose is the premium. Option holders
+also can't be forced out of the market for lack of funds by
+rapidly falling or rising prices. That can happen to those
+who try to play the market with futures contracts, because
+futures holders are sometimes asked to post additional
+good-faith money to maintain their market positions.
+   For people who think oil prices will continue to rise, the
+simplest option strategy might be to buy a "Dec. 29 call" --
+a call option on the December crude-oil futures contract that
+has an exercise, or "strike," price of $29. Speculators could
+buy a Dec. 29 call on Tuesday for a premium of $1,650 ($1.65
+per barrel, multiplied by 1,000 barrels per contract).
+   How much people who buy the option could make depends on
+how high oil prices go by Nov. 9, when the option expires.
+The break-even point is the $29 strike price plus the $1.65
+premium, or $30.65. If, for instance, the December crude
+contract is selling for $32 a barrel, speculators could make
+$1,350 ($1.35 times 1,000), not counting commissions. On the
+other hand, if the December crude contract is selling for
+anything less than $29, speculators would lose the entire
+$1,650 they put up.
+   They could reduce the potential loss by using what is
+called a "bull call spread." In this strategy, they decrease
+the cost of the call option they purchase by selling another
+call option with a higher strike price but the same
+expiration date.
+   For example, as the table accompanying this article shows,
+a speculator could buy a $27 call that costs $2,460, while
+selling a $29 call for $1,650; the net cost would be $810.
+That is the maximum that can be lost, regardless of what
+happens to the price of crude oil. But this strategy also
+limits the maximum potential profit, in this case to $1,190.
+The option market rarely reduces risk without extracting a
+price.
+   People who believe the oil market has overreacted to
+events in the Middle East should consider bearish strategies.
+The simplest of those would be to purchase a December put
+with a $25 strike price. On Tuesday, the price of a Dec. 25
+put was $1,070 ($1.07 per barrel). When the option expires on
+Nov. 9, this strategy would produce a profit if the December
+crude-oil contract is below $23.93 (the $25 strike price
+minus the $1.07 per barrel premium). The maximum potential
+loss would be $1,070.
+   Speculative bears could reduce the potential loss by using
+a spread strategy that reduces the cost of the put option
+they purchase by selling another put option with a lower
+strike price. As with a bull spread, the trade-off is that a
+"bear put spread" also limits the maximum potential profit.
+   People who are uncertain about the future price of crude
+or who believe it will remain in a trading range might
+consider a neutral strategy known as a "butterfly spread."
+Such spreads may be done with either puts, calls or both.
+Typically, they involve the selling of two options that have
+a strike price near the current price of the underlying
+commodity. Simultaneously, options with strike prices both
+higher and lower than the options sold are purchased.
+   The accompanying table shows an example in which a
+speculator sells a December call option and a December put
+option, each with a strike price of $28. At the same time a
+$31 call and $25 put would be purchased. This trade would
+have a maximum profit of $2,270, which is the amount that the
+speculator would make if December crude settles at $28 when
+the options expire.
+   The maximum potential loss would be $730, which would be
+the minimum amount a speculator would be required to put up
+to establish this butterfly spread. But that full loss would
+be realized if the price of crude oil is just a little above
+or below the strike price of the options sold. In the case of
+the example shown in the table, any price below $26 a barrel
+or above $30 a barrel would result in the maximum loss.
+   Mr. Colburn of E.D.&amp; F. Man cautions that the option
+market is now experiencing extremely wide bid-ask spreads
+because of the volatility of futures prices. The wide spreads
+-- plus commissions that typically run about $30 per option
+at a discount broker -- mean that strategies that look good
+on paper lose some of their luster in reality, he says.
+   Still, he says, "Energy options are good for speculators
+who are comfortable with the risks they entail and also have
+a strong view on where they think oil prices are going to be
+in the future."
+   ---
+             How Some Oil-Market Plays Could Fare
+                                                                                                       
+
+   Profit or loss from five limited-risk option strategies,
+based on option prices as of Aug. 21.
+                                                                                                       
+
+                               PROFIT OR LOSS AT VARIOUS
+                               CLOSING PRICES FOR DECEMBER
+                       Margin  CRUDE-OIL FUTURES CONTRACT**
+                     Required   $20     $24     $28    $32
+                     --------------------------------------
+                                                                                                       
+
+ Bullish Strategies
+                                                                                                       
+
+ Buy Dec. 29 call @
+ $1.65                 $1,650 -$1,650 -$1,650 -$1,650 $1,350
+                                                                                                       
+
+ Buy call spread
+ -- Buy Dec. 27 call @
+ $2,46
+ -- Sell Dec. 29 call
+ @$1.65                   810 -   810 -   810     190  1,190
+                                                                                                       
+
+ Bearish Strategies
+                                                                                                       
+
+ Buy Dec. 25 put @
+ $1.07                  1,070   3,930 -    70 - 1,070 -1,070
+                                                                                                       
+
+ Bear put spread
+ -- Buy Dec. 26 put
+ @ $1.46
+ -- Sell Dec. 24 put
+ @ $0.77                  690   1,310   1,310 -   690 -  690
+                                                                                                       
+
+ Neutral Strategy
+                                                                                                       
+
+ -- Buy Dec. 25 put
+ @ $1.07
+ -- Sell Dec. 28 call
+ @ $2.00
+ -- Sell Dec. 28 put
+ @ $2.44
+ -- Buy Dec. 31 call
+ @ $1.10                  730  -  730 -   730   2,270 -  730
+
+ *Minimum amount most brokers would ask; some might require
+ more.
+ **All December crude options expire on Nov. 9, and the
+profit or loss calculations are as of that date,
+ excluding commissions.
+</TEXT>
+</DOC>

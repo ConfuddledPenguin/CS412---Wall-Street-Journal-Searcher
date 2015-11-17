@@ -1,0 +1,42 @@
+
+<DOC>
+<DOCNO>
+WSJ900822-0010
+</DOCNO>
+<DOCID>
+900822-0010.
+</DOCID>
+<HL>
+   AT&amp;T, Others Develop
+   Unix Software Standard
+</HL>
+<DATE>
+08/22/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B3
+</SO>
+<CO>
+   T INTC
+</CO>
+<IN>
+SOFTWARE (SOF)
+</IN>
+<LP>
+   SANTA CRUZ, Calif. -- American Telephone &amp; Telegraph Co.'s
+Unix System Laboratories Inc., Intel Corp. and Santa Cruz
+Operation Inc. said they developed a standard that allows
+designers to write Unix software for personal computers that
+use Intel's 386 and 486 microprocessors.
+   As a result, the companies said application developers
+following this specification can create a single version of
+their software that will run on all 386- or 486-based
+operating systems that conform to the specification.
+</LP>
+<TEXT>
+   AT&amp;T and companies that make computers that run the Unix
+operating system have been trying to come up with a standard
+to challenge Microsoft Corp.'s widely used DOS operating
+system.
+</TEXT>
+</DOC>

@@ -1,0 +1,77 @@
+
+<DOC>
+<DOCNO>
+WSJ900514-0122
+</DOCNO>
+<DOCID>
+900514-0122.
+</DOCID>
+<HL>
+   Technology:
+   IBM Is Expected
+   To Unveil Wider
+   Uses for CallPath
+   ----
+   By Laurence Hooper
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+05/14/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B5
+</SO>
+<CO>
+   IBM G.SIE NT T
+</CO>
+<IN>
+COMMUNICATIONS TECHNOLOGY (CMT)
+SOFTWARE (SOF)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+</IN>
+<LP>
+   NEW YORK -- International Business Machines Corp. is
+expected to unveil tomorrow a major expansion in the
+capabilities of CallPath, a software product that links
+telephone switches to computers, industry executives said.
+   IBM will announce CallPath support for telephone switches
+other than those made by Rolm, the telecommunications concern
+that it owns in partnership with Siemens AG, the executives
+said. It will also announce several new CallPath features,
+and will outline a set of protocols for companies that write
+software that works with CallPath, they added.
+</LP>
+<TEXT>
+   IBM declined to comment, but has scheduled a "major
+telecommunications announcement" for tomorrow.
+   CallPath identifies callers to a telephone switch known as
+a PBX, for private branch exchange, and automatically pulls
+information about them from an IBM minicomputer or mainframe.
+Telephone operators -- customer service representatives or
+brokers, for example -- can see callers' files displayed on a
+screen as soon as they pick up the phone, which saves time
+and opens up new marketing opportunities.
+   Currently, CallPath works only with Rolm PBXs, and only
+with incoming calls. The executives said IBM will announce
+CallPath support for PBXs made by Northern Telecom Inc. and
+American Telephone &amp; Telegraph Co., among others. They also
+said CallPath will work with outgoing calls -- a big plus for
+telemarketing companies and others that depend on calling
+their customers.
+   AT&amp;T, Northern Telecom and Rolm together dominate the PBX
+market. Since many companies keep their customer databases on
+IBM computers, IBM's announcement opens up CallPath services
+to a huge audience.
+   In addition, the industry executives said IBM will
+announce a set of standards and protocols that will enable
+software writers to develop CallPath applications that work
+in a large variety of environments.
+   "This is going to be great news for all the different
+vendors playing in this marketplace," said Dixon Doll,
+chairman of DMW Group, a consulting firm in Ann Arbor, Mich.
+"A very major vendor is putting a very big stake in the
+ground, and everyone can take their direction from it.
+Customers can now be sure that standards are going to emerge
+in this market."
+</TEXT>
+</DOC>

@@ -1,0 +1,109 @@
+
+<DOC>
+<DOCNO>
+WSJ900410-0080
+</DOCNO>
+<DOCID>
+900410-0080.
+</DOCID>
+<HL>
+   Technology:
+   Rival Groups Break Off Merger Talks
+   In Battle Over Unix Operating System
+   ----
+   By Paul B. Carroll
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+04/10/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B7
+</SO>
+<CO>
+   SUNW T IBM DEC
+</CO>
+<IN>
+SOFTWARE (SOF)
+</IN>
+<LP>
+   The two sides in the computer industry's war over the Unix
+operating system said they have broken off talks on merging
+their groups and have agreed to go their separate ways.
+   That represents at least something of a setback for
+proponents of Unix, because customers may get confused about
+which version of Unix to use and delay any purchases. In
+addition, corporate customers will find it inconvenient to
+have to deal with two flavors of Unix rather than one --
+they're already having enough trouble juggling all the
+operating systems, types of hardware and application software
+packages on the market.
+</LP>
+<TEXT>
+   Any trouble could be important, because as Unix has built
+momentum over the past couple of years, it has helped change
+the rules of the computer marketplace. Unix runs on most
+types of computer hardware, so customers who use it aren't
+locked in to using one company's hardware, as customers
+generally have been in the past. That has given customers new
+flexibility; it has also helped drive profit margins on
+hardware way down.
+   The one drawback for Unix has been that most versions were
+slightly different, so programs for one type of hardware
+needed to be fiddled with before they could run on another
+type. And anything that prolongs that difficulty is a
+problem.
+   At the same time, the end of truce talks was hardly a
+surprise. The Open Software Foundation -- an industry group
+that includes International Business Machines Corp. and
+Digital Equipment Corp. -- and Unix International -- which
+includes American Telephone &amp; Telegraph Co. and Sun
+Microsystems Inc. -- had been sparring for the past two
+years.
+   It had become increasingly clear in recent months that
+they were unlikely to unite. Some of the companies involved
+argued, in fact, that the announcement will help sellers of
+Unix-based systems because it will finally get customers to
+stop focusing on the two sides' on-again-off-again
+negotiations.
+   "Now that this whole thing is behind us, maybe we can
+focus on the real issues," said Scott McNealy, chief
+executive officer of Sun Microsystems, a maker of
+workstations that has been one of the major figures in the
+Unix wars. He said that it was "absolutely fanciful thinking
+that we'd ever get down to one of anything," and that the
+real competition is Unix against other operating systems, not
+one version of Unix against another.
+   The Open Software Foundation said talks broke off partly
+because Unix International and AT&amp;T's Unix development arm
+refused to turn control of Unix over to the industry. The
+Open Software Foundation had been formed largely because of
+concern that AT&amp;T, the originator of Unix, and its ally Sun
+had too much control over the Unix marketplace because they
+controlled the development of the basic Unix software.
+   OSF also said it decided that its version, to be finished
+late this year, was clearly superior to the latest AT&amp;T
+version on the market. That is especially true, OSF said, in
+terms of the system's security and its ability to run on
+hardware with more than one central processor.
+   Unix International said talks broke off because OSF was
+pulled in too many different directions by its numerous
+members. Unix International also disputed the idea that there
+was much difference in the technology, saying it would be
+able to deliver at about the same time as OSF the features
+that OSF claimed as advantages.
+   Both sides were quick to claim victory. Unix International
+members argued that they have built up too much momentum to
+be overtaken, because they already have their next-generation
+version of Unix in the marketplace, while OSF has run into
+delays. OSF members noted their impressive membership list,
+whose importance was underscored yesterday when several
+announced that they were increasing their financing of OSF to
+ensure its success.
+   Whether one will gain a significant advantage probably
+won't be clear until after OSF members start selling systems
+based on its version of Unix, a year from now. But other
+computer-industry fights like this have ended in draws
+lately, and it seems likely that this one will, too.
+</TEXT>
+</DOC>

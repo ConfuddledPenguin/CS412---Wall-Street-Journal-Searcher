@@ -1,0 +1,68 @@
+
+<DOC>
+<DOCNO>
+WSJ900716-0009
+</DOCNO>
+<DOCID>
+900716-0009.
+</DOCID>
+<HL>
+   Technology:
+   Agency to Propose
+   A Security Standard
+   For Computers by Fall
+</HL>
+<DATE>
+07/16/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), NO PAGE CITATION
+</SO>
+<IN>
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+</IN>
+<GV>
+COMMERCE DEPARTMENT (COM)
+FEDERAL GOVERNMENT (FDL)
+</GV>
+<LP>
+   Bowing to political pressure, a Commerce Department agency
+said that by September it will propose a standard for
+computer security that experts say will be a boon for the
+high-tech industry.
+   John Lyons, director of the National Institute of
+Standards and Technology, the agency in charge of producing a
+standard, said Friday that work on a proposed standard should
+be completed "in a matter of a few weeks" and will be
+published "by the end of summer."
+</LP>
+<TEXT>
+   The standard should help the spread of electronic-data
+communications by encouraging computer-network operators to
+install a single method of ensuring that documents sent via
+computer networks are authentic and haven't been altered. But
+because such an approach to security, called public-key
+cryptography, also provides a defense against computer
+snoops, it has prompted opposition from the National Security
+Agency, the nation's chief electronic spy.
+   Members of Congress and officials in the computer industry
+have complained about opposition from the NSA.
+   The NSA, one of the government's most secretive agencies,
+declines to say publicly why it fears such improvements in
+electronic communications. Mr. Lyons says the NSA's
+objections turn on national security concerns, but he
+wouldn't be specific.
+   RSA Data Security Inc., a tiny concern in Redwood City,
+Calif., controls the most widely used approach to public-key
+cryptography. Experts say the federal government probably
+should adopt RSA Data's approach, since it is popular in
+Europe and catching on in the U.S.
+   But there are other alternatives. "Technically, its an
+open question," said Willis Ware, a computer scientist at
+Rand Corp. who chairs a Commerce Department advisory
+committee on computer security.
+   Mr. Ware said that while RSA Data "has got a corner on the
+marketplace," there may be weaknesses in the company's
+approach to security that are only known by the NSA.
+</TEXT>
+</DOC>

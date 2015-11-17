@@ -1,0 +1,361 @@
+
+<DOC>
+<DOCNO>
+WSJ900511-0097
+</DOCNO>
+<DOCID>
+900511-0097.
+</DOCID>
+<HL>
+   Painful Birth:
+   Creating New Software
+   Was Agonizing Task
+   For Mitch Kapor Firm
+   ---
+   Despite Expert's Experience,
+   Job Repeatedly Overran
+   Time and Cost Forecasts
+   ---
+   A Line: ("%3.0f %6.1f/n",...
+   ----
+   By Paul B. Carroll
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+05/11/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE A1
+</SO>
+<IN>
+SOFTWARE (SOF)
+CORPORATE PROFILE (PRO)
+</IN>
+<LP>
+   CAMBRIDGE, Mass. -- The business of creating new computer
+software -- the programs that make computers work -- is one
+of the most complex, painstaking, even exasperating jobs
+around. It is as if someone is writing "War and Peace" in
+code, puts one letter out of place and turns the whole book
+into gibberish.
+   So difficult is the process that it can baffle even such
+industry stars as Mitch Kapor, the founder of Lotus
+Development Corp., and Peter Miller, a well-known veteran. In
+November 1987, the two men formed a software company with the
+announced intention of making personal computers much easier
+to use.
+</LP>
+<TEXT>
+   But the path to simplicity proved tortuous, and not until
+early last month did they finally turn over to their
+manufacturing plant their first product, a single floppy
+disk. The software was late and far over budget; in fact, it
+almost didn't make it out the door. And it bore little
+resemblance to their original plans.
+   Besides the inherent complexity of the work, there are
+other problems. Most software-development planning stinks: A
+joke in the industry is that programmers spend 90% of their
+time on the first 80% of a project and 90% of their time on
+the final 20%. And most design stinks, too: Programmers
+either don't understand their customers well enough or load
+up products with features that please themselves but perplex
+everyone else.
+   Meanwhile, computer-using companies trying to become more
+efficient have a problem: They have ample computer hardware
+but lack adequate software. And they won't get it soon.
+   The difficulties faced by Messrs. Kapor and Miller and
+their 23 employees at the fledgling company, ON Technology
+Inc., go a long way toward explaining the hopes and fears
+that drive the $8 billion-a-year software industry. The
+39-year-old Mr. Kapor agreed to give this newspaper an inside
+look as their initial project unfolded because he believes
+that software design must be improved and the development
+process better understood.
+   The story begins in the summer of 1987. Mr. Kapor had
+recently wound down his dealings with Lotus, where he
+developed the 1-2-3 spreadsheet that, in selling more than
+five million copies since 1983, made Lotus into one of the
+world's software giants and powered the whole
+personal-computer industry into liftoff. Mr. Kapor, who left
+Lotus because it was getting too big, had taken a floor of
+office space in a professional building but had no projects.
+   All he had was his horror at the difficulty of using
+computers. "Not a day goes by that I don't want to throw my
+computer out the window," he said.
+   Mr. Kapor chatted with Mr. Miller, who used to work at
+Lotus, and found that he had some ideas but no office space.
+They got together. They shared an interest in a new area of
+software, object-oriented programming. And they worried that
+although their secretary would know what to do if they wanted
+to send a letter to Joe, their word-processing software
+wouldn't know who Joe was, how to send him a letter, how
+formally to address it.
+   The two men decided to produce a new layer of software
+that would let developers build such real-world knowledge
+into their applications. With that idea and Mr. Kapor's name,
+ON quickly lured some high-profile programmers and built up
+to 32 people. Mr. Kapor drew on his considerable wealth to
+finance the project and attracted investment from two
+venture-capital firms that made fortunes on Lotus.
+   The place resembled a think tank, with people waving magic
+markers while arguing around whiteboards or occasionally
+writing papers on software theory. There was a plastic
+dinosaur in the lobby, carrying a sign saying, "Welcome,
+Insurance Salesmen, Investment Advisers, Marketing
+Consultants, Industrial Spies." A couple of pingpong tables
+were in the back.
+   But the big hardware and software companies didn't see ON
+as benign: They worried that new, popular software would give
+the newcomer too much leverage. Some indicated that they
+would try to quash the project by promising to deliver
+similar capability themselves. Mr. Kapor found that, in any
+case, he was years away from having a product and was running
+through $300,000 a month. So, in December 1988, he says, "we
+took the plan out and we shot it. We got it up at six in the
+morning, blindfolded it and shot it."
+   The company fell into chaos for three months. Employees
+started arriving late and leaving early. Some drifted away as
+their work disappeared. Others were asked to leave. Mr. Kapor
+went to the venture capitalists for more money. Wags started
+calling the company OFF Technology.
+   Even though the company shrank 50%, three projects took
+shape. The first, called On Location, was handed over to two
+young programmers in April 1989. This followed conventional
+wisdom that, for good communication, software should be
+written by teams no larger than four people -- that nine
+women can't have one baby by being pregnant a month each.
+   The senior programmer was Roy Groth, now 27 years old, who
+spent his evenings and weekends playing trumpet in various
+bands. The other was Rob Tsuk (pronounced Chook), a husky
+24-year-old. Also heavily involved was graphic designer Paul
+Moody, a 31-year-old car nut who kept a rearview mirror on
+his Macintosh so he could watch what was going on outside his
+office door. Mr. Miller, a 45-year-old who describes his
+style as management by walking around, was to supervise.
+   The basic idea behind the product was that people can
+store so much information on hard disks that the disks, like
+file cabinets, can become so crammed with stuff that it is
+hard to remember what anything was called or where it is.
+Products that search for files are slow. So, Messrs. Kapor
+and Miller decided there's room for a product for the
+Macintosh such as On Location, which would keep an index of
+what's where. The index would take up 1% to 2% of the hard
+disk but, they said, would find files 10 to 15 times faster
+than other products used by the four million Macintoshes
+operating world-wide.
+   The basic approach was to build, try out and then fix
+repeated prototypes, with each a bit closer to the final
+product. That paid off when a mockup was shown to three
+industry gurus. One of them, Bobby Orbach, until recently a
+senior executive at 47th Street Computer, a New York
+retailer, said the product must be able to find any word in
+any file, not just the file names as originally planned. That
+proved to be a crucial piece of advice.
+   Messrs. Groth and Tsuk started churning out the code,
+writing in a language with few verbs and awash in
+punctuation, such as: printf("%3.0f %6.1f/n", fahr,
+celsius);. They appeared to be making progress toward a
+shipment date of early November. Mr. Kapor turned to
+marketing and hired Conall Ryan, a 32-year-old who once
+worked for him at Lotus.
+   Mr. Moody started what the team called the product's
+choreography, figuring out how the user would use the product
+and anticipating all the errors he might make. It's a
+daunting task. Mr. Moody went through more than 200 versions
+of how the program should look on a monitor.
+   The office became intense, with programmers on all three
+projects sometimes working in bursts and then falling asleep
+in their offices, sometimes working well into the night at
+home. Spirits were high; the pingpong games turned fierce.
+Mr. Ryan instituted a Friday-afternoon party, whose start was
+signaled by blasting music over the intercom and then by the
+sound of beer glug-glugging into a glass.
+   By early September, Mr. Miller said the product's features
+were essentially complete, and Mr. Kapor said he would be
+surprised if it wasn't finished by November. But then
+everything started going wrong. Features that were supposed
+to take a day to produce took three or four.
+   The biggest, potentially fatal problem concerned the
+product's ability to index automatically. A tiny piece of the
+software was supposed to be always active in the main memory,
+watching to see when a file is created or changed, so it
+could call in more of the software when the computer is idle
+and update the index. But the Macintosh operating system
+tries to kill off pieces of software like that. There
+appeared to be no solution.
+   The group pored over lengthy printouts, called dumps, that
+contain a sort of map of what's going on in the computer's
+main memory. The dumps consist of groupings of letters and
+numbers that, if they weren't arranged in eight-character
+strings, would look as though someone had rested his elbows
+on a keyboard for an hour. To the initiated, they reveal an
+artful way to hide from the operating system by hiding inside
+it. It is a dangerous game of hide and seek. Mr. Tsuk later
+spent several days debugging this bit of software, and it
+kept crashing the system right up until the end.
+   In September, Mr. Ryan started what he called Real Dinners
+for Real People: He brought in half a dozen Macintosh users,
+fed them lasagna and got their reactions to the latest
+prototype of On Location. This proved to be a smart move
+because it gave the team extensive feedback much earlier than
+usual. Most software is like a digital watch -- there are
+features that nobody needs, and it's tough to figure out
+which does what to whom. But feedback helped Mr. Kapor keep
+banging away at two truths in software design: Simplicity is
+paramount, and less is often more.
+   At the first Real Dinner, Mr. Groth recalls, the Real
+People looked at the installation procedure and said, "You
+must be kidding." He laughed. "So, we said, `You're right. We
+were kidding.'" Several more tries, and dinners, were needed
+to get it right. In the process, the team discarded a plan to
+let people keep their own indexes of all the files on all the
+hard disks on a network. It was hard to write the code and
+impossible for users to figure it out.
+   But the schedule kept slipping further and further. As the
+shipment date headed toward the end of last year, Mr. Kapor
+worried that ON would miss the Christmas selling season.
+"It's like a Russian doll," Mr. Ryan says. "Every time we
+finally crack open one problem, we find there's another one
+inside."
+   The company also was running out of money again. So, Mr.
+Kapor had to go back to the venture capitalists, a move that
+would raise total financing to $9 million with no product to
+show for it. Mr. Kapor made a get-tough speech at a weekly
+staff meeting in September. "I'm not going to bail this out
+if it fails," he said. "We're playing with live ammo."
+   Two weeks later, Mr. Kapor got excited because he had an
+idea about future products that he described as being as good
+an idea as the one that led him to fame with Lotus 1-2-3. But
+it required cancellation of the two projects beyond On
+Location. Five more programmers left.
+   The lone survivor from one of the projects was 27-year-old
+Nancy Benovich. She was asked to write the software to do
+so-called fuzzy searches, so that if someone wants all the
+files that contain the word "love," he will also get "loves,"
+"loving" and "loved." Messrs. Kapor and Miller believed that
+her role would be discrete enough not to cause a problem. It
+did.
+   Ms. Benovich and Mr. Tsuk wound up writing codes that
+overlapped ever so slightly but bollixed up matters for days.
+In certain circumstances, their codes could clear a bit of
+memory twice, a nasty development that usually made the
+system crash -- and so as to leave the basic problem hard to
+locate. However, debugging tools have improved so much that,
+once the type of problem was recognized, the team sent some
+software over telephone wires, attached its sensors to On
+Location and quickly pinpointed the problem.
+   As it became clear that Christmas was out, shipments were
+postponed until January, and the developers breathed a sigh
+of relief. But even as most of the features were completed,
+development slowed as the bug-fixing process kicked into
+gear.
+   Bug-fixing is actually much simpler on the Macintosh than
+on IBM-compatible PCs. There are only a few types of
+Macintoshes, all made by Apple Computer Inc. In contrast,
+there are hundreds of IBM-compatible computers, all slightly
+different and all able to trip up the software in mysterious
+ways. Nevertheless, thousands of Macintosh applications are
+on the market, and the team had to make sure that its
+software doesn't foul up any of them.
+   Candace Clampitt, 33, who ran the bug-fixing process, had
+three people banging on machines all day and had tests run
+automatically through the night. Mr. Tsuk sometimes spent
+whole days trying to duplicate, and then resolve, problems
+reported by people inside ON or by outside test users. At one
+point, he made a typing error and wiped out three computers,
+which had to be painstakingly resurrected. Mr. Groth put a
+"Do Not Disturb" sign on his door and forged ahead.
+   As the hours got longer, Mr. Groth got carried away when
+writing messages that alert the user to options or problems.
+Instead of the computer screen showing a box that read
+"Cancel" when someone has the option of killing a file, he
+had the box say, "Make My Day." But, as Messrs. Groth and
+Tsuk worked through the holidays, they seemed to be getting
+close. Shipment was set for mid-February.
+   Mr. Ryan, meanwhile, was winding up the marketing end. The
+list price had been set at $129.95, with the actual retail
+price at $75 to $85. The hope had been that users could be
+persuaded that On Location was in a different class than
+other software and thus should cost more. But the Real
+Dinners made it clear that wouldn't work. So, Mr. Ryan told
+Lillian Rosen to get below $8 the unit cost of duplicating
+the disks and putting them in the boxes. She succeeded: Each
+unit would cost ON $7.47.
+   Mr. Kapor moved everyone into half the office space on the
+floor and prepared to rent out the other half. When Ms.
+Benovich completed her task on On Location, she was told
+there was no more work for her and was asked to leave. "It's
+one of those tough business decisions you have to make," Mr.
+Miller said. ON was no longer a think tank.
+   When announcement day, Jan. 22, finally arrived, Mr. Kapor
+charmed a group of about 30 reporters at a press conference
+in the cafeteria. Afterward, as the programmers ran off to
+change out of their suits and ties, a reflective Mr. Kapor
+expressed some mixed feelings. "Software planning, at its
+best, is a mess," he said. "And this wasn't its best."
+   Everyone acknowledges being far too optimistic on timing.
+Mr. Kapor also says some problems could have been solved by
+tighter management, to keep Messrs. Groth and Tsuk from
+spending too much time polishing their code and from fixing
+bugs before they knew that the solutions wouldn't create more
+problems later.
+   The prototyping, though helping with the design, may have
+hampered the scheduling. Jeff Gibbons, a 37-year-old senior
+programmer, says it is relatively easy to know how long it
+will take to add a feature but hard to know how long it will
+take to turn a feature from bug-ridden code into a finished
+version.
+   Nevertheless, Mr. Kapor declares himself pleased with the
+design process. And early reviews support him. "On Location
+winds up being a pretty incredible product from a design
+standpoint," says Stewart Alsop, the editor of PC Letter, an
+industry newsletter. The only complaints have been that the
+company didn't deliver on its initial vision and used a whole
+lot of brainpower to attack a narrow problem. "It's as though
+William Faulkner wrote a really nice cookbook," says Richard
+Shaffer, the editor of Technologic Computer Letter.
+   The shipment date slipped to late February, but that
+seemed a small problem. At a PC conference in late January,
+Mr. Kapor made a tough speech about the sorry state of
+software design and generated interest in forming a group to
+figure out ways to attack the problem.
+   But Mr. Kapor had a nasty surprise awaiting him when he
+returned. On Location was slipping again. This time, no one
+even pretended to know how far behind the product really was.
+The marketing people told Mr. Kapor that they couldn't
+operate without a firm schedule and that they no longer had
+any confidence in the development group's ability to provide
+one.
+   Mr. Kapor had some long, hard sessions with Mr. Miller,
+who stormed out once but then returned. Mr. Kapor decided to
+become his Siamese twin in managing the project. They
+gathered the team together and produced an excruciatingly
+detailed accounting of all the work still to be done. They
+decided they could finish in a bit more than a month, but
+only by stopping work on the second project and devoting
+three more programmers to On Location.
+   "This is a mess," Mr. Kapor said. "A month's delay isn't
+that bad, but it's sort of, `Do I really need this?`"
+   Office tensions heated up again, but the process stayed
+remarkably close to the new schedule. The product -- the 30th
+version circulated internally -- finally went to
+manufacturing.
+   Even that wasn't the end of the turmoil. Two weeks later,
+Mr. Miller quit, and Messrs. Groth and Tsuk agreed to leave.
+Mr. Kapor says there was less here than meets the eye -- Mr.
+Miller may work on another project that Mr. Kapor would back,
+and Messrs. Groth and Tsuk were leaving because of
+personality conflicts that developed during the final days.
+Still, the departures left the young company with still
+another set of challenges.
+   Mr. Kapor, reflective again, says, "I view this as
+character-building." The former transcendental-meditation
+teacher adds, "I'm moving closer to spiritual enlightenment.
+I'm not 10,000 miles away. I'm 9,999 miles away."
+   He, and all the others, vow to do better with their next
+project. But there's another software axiom that usually
+proves true. Called Hofstadter's law, it's circular: It says
+software development always takes longer than you think, even
+when you take into account Hofstadter's law.
+</TEXT>
+</DOC>

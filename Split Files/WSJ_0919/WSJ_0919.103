@@ -1,0 +1,49 @@
+
+<DOC>
+<DOCNO>
+WSJ900919-0078
+</DOCNO>
+<DOCID>
+900919-0078.
+</DOCID>
+<HL>
+   Technology:
+   AT&amp;T to Enhance
+   Unix Operating System
+</HL>
+<DATE>
+09/19/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B4
+</SO>
+<CO>
+   T
+</CO>
+<IN>
+COMMUNICATIONS TECHNOLOGY (CMT)
+</IN>
+<LP>
+   NEW YORK -- American Telephone &amp; Telegraph Co. announced
+plans to add features to its Unix operating system that will
+increase its security and let it work on computers using more
+than one central processor.
+   The data-protection features will be available in the
+first half of next year. Some multiprocessing capabilities
+will be provided in the first half; more advanced features
+will become available in 1992.
+</LP>
+<TEXT>
+   These capabilities had already been promised, as a group
+led by AT&amp;T vied for control of the Unix standard with the
+Open Software Foundation, led by International Business
+Machines Corp. and Digital Equipment Corp. But the
+announcement of a timetable for their availability is still
+important because so many companies are betting their futures
+on Unix. They hope to appeal to customers who don't want to
+be tied in to one hardware supplier by their reliance on
+software that runs only on that company's proprietary
+operating system. And Unix requires features such as improved
+security if it is to rival those other operating systems.
+</TEXT>
+</DOC>

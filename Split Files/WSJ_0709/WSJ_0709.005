@@ -1,0 +1,168 @@
+
+<DOC>
+<DOCNO>
+WSJ900709-0150
+</DOCNO>
+<DOCID>
+900709-0150.
+</DOCID>
+<HL>
+   Technology:
+   U.S. Agency Stands in Way
+   Of Computer-Security Tool
+   ----
+   By G. Pascal Zachary
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+07/09/90
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B1
+</SO>
+<CO>
+   DEC LOTS NOVL
+</CO>
+<IN>
+SOFTWARE (SOF)
+</IN>
+<GV>
+EXECUTIVE (EXE)
+COMMERCE DEPARTMENT (COM)
+</GV>
+<LP>
+   REDWOOD CITY, Calif. -- A tiny software company has
+developed what is probably the best defense yet against
+computer snoops, hackers and viruses, but the National
+Security Agency is blocking efforts to expand the
+technology's use.
+   RSA Data Security Inc.'s approach is already widely used
+in Europe. In the U.S., a number of companies, including
+Novell Inc., Lotus Development Corp. and Digital Equipment
+Corp., have licensed the technology for use in their
+products. A Pentagon logistics agency and InterNet, the
+nation's premier computer network for researchers, also use
+the technology. And now, based on the premise that private
+industry won't adopt a computer-security standard until
+government does, the U.S. is considering endorsing RSA Data's
+approach. If that happens, computer companies will have a
+greater incentive to invest in the technology.
+</LP>
+<TEXT>
+   But according to government officials, the National
+Security Agency -- the government's largest intelligence
+agency and most skilled code breaker -- is objecting to the
+choice of RSA Data's technology and is generally reluctant to
+move forward on any standard in the field known as public-key
+cryptography. The probable reason, the officials say: The RSA
+system is too effective. The snoopers blocked by the system
+could include the NSA itself.
+   Some see the RSA case as a classic example of domestic
+companies being deprived of ready access to a valuable
+product by national security interests. "The unintended
+effect is that the most interesting cryptographic research is
+going on outside of the U.S.," says John Gilmore, a computer
+consultant in San Francisco. Adds Martin Hellman, a Stanford
+University professor: "NSA has a vested interest in not
+getting all the knowledge (about security) applied."
+   The NSA won't comment on its role, but there's no doubt
+that not adopting a standard is costly. Hackers appear to
+have little trouble penetrating many computer networks,
+sometimes leaving damaging computer viruses. Users of such
+networks have no ironclad way of knowing who sent them
+messages, making it nearly impossible to safely transmit
+legal documents, such as contracts. Moreover, the failure of
+U.S. computer makers to offer more stringent security
+features seems likely to hamper their sales in foreign
+countries, where RSA Data's technique is becoming widespread.
+   "There's an economic price to be paid for the inability to
+resolve this conflict," says New Jersey Democrat Robert G.
+Torricelli, chairman of a House subcommittee that will hold a
+hearing tomorrow on computer security. "We are accomplishing
+nothing but losing a foreign market."
+   RSA Data's products are generally praised by security
+experts because they are an advance over traditional
+"one-way" encryption. Each user has a secret key, or code,
+and a public key published in a directory, and both keys are
+produced -- and linked -- by a mathematical formula. Senders
+use the addressee's public key to route their messages, and
+recipients use their secret key for deciphering. Moreover,
+the messages bear "digital signatures," imprinted with the
+sender's secret key, which provide proof of the sender's
+identity.
+   RSA Data was founded by three Massachusetts Institute of
+Technology professors who invented the approach in 1977.
+Because a description of the company's chief invention was
+first published in an academic journal, RSA Data's most
+important patent isn't enforceable outside the U.S. The
+company's revenue, which is less than $5 million annually,
+has also been limited by customer unwillingness to spend
+money on security and periodic questions about whether RSA
+Data's codes can be cracked.
+   But many security experts say RSA Data's solution is
+superior to any of the alternatives. "From a technology
+perspective, there really isn't an alternative," says Robert
+Schleelein, Digital's manager of strategic relations.
+   It is unusual for the government to endorse a standard
+that requires royalty payments. But such a move may be
+justified in this case because "RSA is close to being a de
+facto standard," says Dennis Branstad, a computer scientist
+at the National Institute of Standards and Technology, the
+Commerce Department agency that creates technical standards.
+   An NSA spokeswoman denies the agency harbors any ill will
+toward the company. In fact, some experts believe the NSA
+uses RSA Data's technology itself, and the spokeswoman says
+that "NSA would never go out and say we don't like RSA's
+products."
+   But James Bidzos, RSA Data's chief executive, isn't so
+sure. He says that in 1982 the Commerce Department began
+considering RSA Data's technology as the basis for a standard
+for public-key cryptography. RSA Data was asked to submit
+technical information and did so, but it never heard anything
+from the department.
+   The NSA was behind the government's sudden loss of
+interest in RSA Data, says a Commerce Department official who
+confirms Mr. Bidzos's story. "The project was put on the back
+burner" because it was "unclear who was really responsible
+for developing standards -- the NSA or us," the official
+says.
+   The NSA has long influenced the civilian use of electronic
+security measures, partly by intense political lobbying and
+partly through federal limits on the export of cryptographic
+products. In 1987, a report by the Office of Technology
+Assessment criticized the NSA's sway over civilian uses of
+cryptography, saying the agency's actions had been
+"inconsistent," and raised questions about "the boundary
+between civilian and military authorities."
+   Seeking to shift some control of computer security,
+including cryptography, back to civilians, Congress several
+years ago approved a law giving the Commerce Department's
+Institute of Standards and Technology the power to set
+commercial, non-military standards in the area. Last year,
+Rep. Torricelli's subcommittee told the institute to develop
+a standard for public-key cryptography but allowed the NSA to
+help.
+   More than a year later, the two agencies still haven't
+produced a draft standard. The NSA spokeswoman says the
+agency is "cooperating" with the institute, but Rep.
+Torricelli thinks the two are deadlocked. "There are
+conflicting interests between a perceived need to allow
+intelligence agencies to operate freely and (providing)
+sufficient protection for our private businesses," he says.
+   Complicating matters further, the institute seems
+ill-equipped to handle the task of forging a new standard,
+which is likely to consist of a series of highly technical
+proposals. Even the institute's Mr. Branstad concedes that
+the department's work has been hampered by a severely
+restricted budget.
+   The obstacles to progress have made some of the
+institute's advisers in private industry despair that a
+federal standard will ever emerge. But even without one,
+industry executives believe that RSA Data's products will
+catch on as customers become more security conscious.
+   Novell, for instance, adopted RSA Data's approach last
+month. It made its move, says Richard King, vice president of
+software development, because "if you wait around for these
+committees to make a decision, you'll go out of business."
+</TEXT>
+</DOC>
