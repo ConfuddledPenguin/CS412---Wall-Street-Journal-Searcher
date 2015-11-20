@@ -1,16 +1,9 @@
 
 package cs412.project.search;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 import cs412.project.config.Config;
+import cs412.project.model.Result;
+import cs412.project.model.SearchObject;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
@@ -23,8 +16,10 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 
-import cs412.project.model.Result;
-import cs412.project.model.SearchObject;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /** Simple command-line based search demo. */
 public class SearchFiles {
@@ -168,7 +163,7 @@ public class SearchFiles {
 	  FileInfo fi = new FileInfo(path);
 	
 	 // String article = path.substring(path.lastIndexOf('/',path.length()));
-	  String article = (path.substring(path.lastIndexOf('\\'), path.length())).substring(1);
+//	  String article = (path.substring(path.lastIndexOf('\\'), path.length())).substring(1);
 //
 //	  System.out.println("\n-------" + article + " DOC NO--------");
 //	  System.out.println(fi.getDocumentNumber());

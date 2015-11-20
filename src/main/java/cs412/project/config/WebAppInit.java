@@ -16,7 +16,6 @@ import javax.servlet.ServletRegistration;
  */
 public class WebAppInit implements WebApplicationInitializer {
 
-
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
 
@@ -41,6 +40,8 @@ public class WebAppInit implements WebApplicationInitializer {
     }
 
     private void performIndexing(){
+
+        if(!Config.index) return;
 
         new IndexFiles(Config.filesPath, Config.indexPath);
 
