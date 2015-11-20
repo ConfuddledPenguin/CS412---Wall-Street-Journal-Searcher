@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import cs412.project.config.Config;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
-import org.apache.lucene.demo.FileInfo;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
@@ -150,12 +150,12 @@ public class SearchFiles {
     ScoreDoc[] hits = results.scoreDocs;
     
     int numTotalHits = results.totalHits;
-    System.out.println(numTotalHits + " total matching documents");
+//    System.out.println(numTotalHits + " total matching documents");
 
     int start = 0;
     int end = Math.min(numTotalHits, hitsPerPage);
     
-    for(int i = 0; i<numTotalHits; i++){
+    for(int i = 0; i<hits.length; i++){
     	Document doc = searcher.doc(hits[i].doc);
         String path = doc.get("path");
         if(path != null){
@@ -169,19 +169,19 @@ public class SearchFiles {
 	
 	 // String article = path.substring(path.lastIndexOf('/',path.length()));
 	  String article = (path.substring(path.lastIndexOf('\\'), path.length())).substring(1);
-	   
-	  System.out.println("\n-------" + article + " DOC NO--------");
-	  System.out.println(fi.getDocumentNumber());
-	  System.out.println("\n-------" + article + " DOC ID--------");
-	  System.out.println(fi.getDocumentId());
-	  System.out.println("\n-------" + article + " ARTICLE DATE--------");
-	  System.out.println(fi.getDate());
-	  System.out.println("\n-------" + article + " HEADLINE--------");
-	  System.out.println(fi.getHeadline());
-	  System.out.println("\n-------" + article + " LEADING PARAGRAPH--------");
-	  System.out.println(fi.getLeadingParagraph());
-	  System.out.println("\n-------" + article + " ARTICLE TEXT--------");
-	  System.out.println(fi.getArticleText()+"\n");
+//
+//	  System.out.println("\n-------" + article + " DOC NO--------");
+//	  System.out.println(fi.getDocumentNumber());
+//	  System.out.println("\n-------" + article + " DOC ID--------");
+//	  System.out.println(fi.getDocumentId());
+//	  System.out.println("\n-------" + article + " ARTICLE DATE--------");
+//	  System.out.println(fi.getDate());
+//	  System.out.println("\n-------" + article + " HEADLINE--------");
+//	  System.out.println(fi.getHeadline());
+//	  System.out.println("\n-------" + article + " LEADING PARAGRAPH--------");
+//	  System.out.println(fi.getLeadingParagraph());
+//	  System.out.println("\n-------" + article + " ARTICLE TEXT--------");
+//	  System.out.println(fi.getArticleText()+"\n");
 
       Result r = new Result(path, fi.getHeadline(), fi.getArticleText());
       r.setDate(fi.getDate());

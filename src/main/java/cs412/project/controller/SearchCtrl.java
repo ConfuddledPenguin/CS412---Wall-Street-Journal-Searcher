@@ -25,8 +25,6 @@ public class SearchCtrl {
     @RequestMapping(value = "/api/search", method = RequestMethod.POST)
     public JSONResponse<Map<String, Object>> performSearch(@RequestBody SearchObject searchObject){
 
-        System.out.println(searchObject.getSearchString());
-
 	    JLanguageTool spellChecker = new JLanguageTool(new BritishEnglish());
 	    List<RuleMatch> matches = new ArrayList<>();
 	    try{
@@ -62,8 +60,6 @@ public class SearchCtrl {
         System.out.println(searchObject.getSearchString());
 
         SearchI searcher = new Searcher();
-
-        List<Result> results = searcher.performSearch(searchObject);
 
         JSONResponse<List<String>> response = new JSONResponse<>();
 
