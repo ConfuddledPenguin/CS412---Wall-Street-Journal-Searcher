@@ -96,6 +96,8 @@ $(document).ready(function(){
 
 		return;
 
+
+
 		$.post(apiURL,request ,function(r){
 			
 			var results = r.responseData.results;
