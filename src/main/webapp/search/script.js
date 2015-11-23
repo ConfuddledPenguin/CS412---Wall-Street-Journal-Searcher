@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	var config = {
-		siteURL		: 'google.com',	
+		siteURL		: '',
 		searchSite	: true,
 		type		: 'web',
 		append		: false,
@@ -72,12 +72,38 @@ $(document).ready(function(){
 		}
 		
 		// URL of Google's AJAX search API
-		var apiURL = 'http://ajax.googleapis.com/ajax/services/search/'+settings.type+'?v=1.0&callback=?';
+		var apiURL = 'http://localhost:8080/api/search.json';
 		var resultsDiv = $('#resultsDiv');
-		
-		$.getJSON(apiURL,{q:settings.term,rsz:settings.perPage,start:settings.page*settings.perPage},function(r){
+
+		var request = {
+			searchString: 'bank',
+			author: null,
+			title: null,
+			date: null
+
+		};
+
+		$.ajax({
+			type: 'POST',
+			url: apiURL,
+			data: JSON.stringify( request),
+			success: function(data){
+				console.log(data);
+			},
+			dataType: 'json',
+			contentType: 'application/json'
+		});
+
+		return;
+
+
+
+		$.post(apiURL,request ,function(r){
 			
 			var results = r.responseData.results;
+
+			console.log(results);
+
 			$('#more').remove();
 			
 			if(results.length){
@@ -121,7 +147,7 @@ $(document).ready(function(){
 				resultsDiv.empty();
 				$('<p>',{className:'notFound',html:'No Results Were Found!'}).hide().appendTo(resultsDiv).fadeIn();
 			}
-		});
+		}, 'json');
 	}
 	
 	function result(r){
@@ -132,45 +158,7 @@ $(document).ready(function(){
 		var arr = [];
 		
 		// GsearchResultClass is passed by the google API
-		switch(r.GsearchResultClass){
 
-			case 'GwebSearch':
-				arr = [
-					'<div class="webResult">',
-					'<h2><a href="',r.unescapedUrl,'" target="_blank">',r.title,'</a></h2>',
-					'<p>',r.content,'</p>',
-					'<a href="',r.unescapedUrl,'" target="_blank">',r.visibleUrl,'</a>',
-					'</div>'
-				];
-			break;
-			case 'GimageSearch':
-				arr = [
-					'<div class="imageResult">',
-					'<a target="_blank" href="',r.unescapedUrl,'" title="',r.titleNoFormatting,'" class="pic" style="width:',r.tbWidth,'px;height:',r.tbHeight,'px;">',
-					'<img src="',r.tbUrl,'" width="',r.tbWidth,'" height="',r.tbHeight,'" /></a>',
-					'<div class="clear"></div>','<a href="',r.originalContextUrl,'" target="_blank">',r.visibleUrl,'</a>',
-					'</div>'
-				];
-			break;
-			case 'GvideoSearch':
-				arr = [
-					'<div class="imageResult">',
-					'<a target="_blank" href="',r.url,'" title="',r.titleNoFormatting,'" class="pic" style="width:150px;height:auto;">',
-					'<img src="',r.tbUrl,'" width="100%" /></a>',
-					'<div class="clear"></div>','<a href="',r.originalContextUrl,'" target="_blank">',r.publisher,'</a>',
-					'</div>'
-				];
-			break;
-			case 'GnewsSearch':
-				arr = [
-					'<div class="webResult">',
-					'<h2><a href="',r.unescapedUrl,'" target="_blank">',r.title,'</a></h2>',
-					'<p>',r.content,'</p>',
-					'<a href="',r.unescapedUrl,'" target="_blank">',r.publisher,'</a>',
-					'</div>'
-				];
-			break;
-		}
 		
 		// The toString method.
 		this.toString = function(){
