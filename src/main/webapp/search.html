@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CS412 - Wall Street Journal Searcher</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Quattrocento:400,700|Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/search.css" />
+</head>
+<body>
+	<header>
+		<h1>Wall Street Journal Searcher</h1>
+		<h2 id="subheading">Insert better name</h2>
+	</header>
+	<main>
+		<form id="searchForm" method="post">
+			<div id="simplesearchform">
+				<fieldset>
+
+					<input id="s" type="text" />
+
+					<input type="submit" value="Submit" id="submitButton" />
+				</fieldset>
+			</div>
+		</form>
+		<div id="search-results">
+
+		</div>
+	</main>
+	<footer>
+		<div class="copyright">
+			<p>&copy</p>
+			<ul>
+				<li><a href="https://tom-maxwell.com">Thomas Maxwell</a></li>
+				<li>Rameez Mahmood</li>
+				<li>Jamie MacDonald</li>
+				<li>Cailean Macillfhinnein</li>
+				<li>Steven Macleod</li>
+			</ul>
+		</div>
+		<div class="info">
+			<ul>
+				<li>Made for CS412, <a href="https://www.strath.ac.uk/"> StrathClyde University</a></li>
+				<li><a href="https://github.com/ConfuddledPenguin/Search-Thing">Github</a></li>
+			</ul>
+		</div>
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+	<script src="js/search.js"></script>
+	<!--HandleBars templates-->
+	<script id="result-template" type="text/x-handlebars-template">
+
+		<div id="search-result">
+			<h3><a href="{{filepath}}">{{title}}</a></h3>
+			<div id="search-result-info">
+				<ul>
+					<li>Author: {{author}}</li>
+					<li>Date: {{date}}</li>
+				</ul>
+			</div>
+			<div id="search-result-body">
+				{{abstractText}}
+			</div>
+		</div>
+
+	</script>
+</body>
+</html>

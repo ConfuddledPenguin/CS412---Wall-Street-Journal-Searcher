@@ -1,0 +1,133 @@
+
+/*
+ * Global
+ */
+html, body {
+	font-family: 'Quattrocento', serif;
+	height: 100%;
+	background-color: #FCF8F7;
+}
+
+/*
+ * Typography
+ */
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
+}
+
+h2{
+	font-size: 1.5rem;
+	padding: 0.5rem 0;
+}
+
+/*
+ * Header
+ */
+
+header{
+	text-align: center;
+	padding: 3rem 0 1rem 0;
+	background-color: #FF5541;
+	box-shadow: 0 5px 5px 0 #aaa;
+}
+
+header #subheading {
+	font-size: 1.44rem;
+	padding: 0.5rem 0 0.5rem 0.2rem;
+}
+
+/*
+ * Search
+ */
+
+#simplesearchform{
+	padding:50px 50px 30px;
+}
+
+fieldset{
+	width: 50%;
+	margin: auto;
+	border:none;
+}
+
+#s{
+
+	border:none;
+	color:#888888;
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	height:36px;
+	line-height:36px;
+	margin-right:12px;
+	outline:medium none;
+	padding:0 0 0 35px;
+	text-shadow:1px 1px 0 white;
+	width:calc(100% - 135px);
+}
+
+#submitButton{
+	width:83px;
+	height:36px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	cursor:pointer;
+}
+
+#submitButton:hover{
+	background-position:left bottom;
+}
+
+/*
+ * Results
+ */
+
+/*
+ * Result page
+ */
+
+/*
+ * footer
+ */
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: calc(100% - 4rem);
+	padding: 1rem 2rem;
+	border-top: 1px solid #eee;
+	background-color: #fff;
+}
+
+footer .copyright, footer li, footer p{
+	float: left;
+}
+
+footer .info {
+	float: right;
+}
+
+footer .copyright{
+	width: 75%;
+}
+
+footer .copyright li{
+	padding-left: 0.5rem;
+}
+
+footer .info li{
+	padding-right: 0.5rem;
+}
+
+footer li a{
+	text-decoration: none;
+	color: #888;
+	transition: color 0.5s;
+}
+
+footer li a:hover{
+	text-decoration: none;
+	color: #333;
+}

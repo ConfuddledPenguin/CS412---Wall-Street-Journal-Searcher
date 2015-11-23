@@ -178,7 +178,9 @@ public class SearchFiles {
 //	  System.out.println("\n-------" + article + " ARTICLE TEXT--------");
 //	  System.out.println(fi.getArticleText()+"\n");
 
-      Result r = new Result(path, fi.getHeadline(), fi.getArticleText());
+      FileNameMagic magic = new FileNameMagic();
+
+      Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), fi.getArticleText());
       r.setDate(fi.getDate());
 
 	  resultsList.add(r);
