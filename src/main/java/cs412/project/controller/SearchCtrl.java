@@ -5,9 +5,11 @@ import cs412.project.model.SearchObject;
 import cs412.project.response.JSONResponse;
 import cs412.project.search.SearchI;
 import cs412.project.search.Searcher;
+import cs412.project.spelling.SpellChecker;
 import org.languagetool.JLanguageTool;
 import org.languagetool.language.BritishEnglish;
 import org.languagetool.rules.RuleMatch;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -22,32 +24,27 @@ import java.util.Map;
 @RestController
 public class SearchCtrl {
 
+    @Autowired
+    SpellChecker checker;
+
     @RequestMapping(value = "/api/search", method = RequestMethod.POST)
     public JSONResponse<Map<String, Object>> performSearch(@RequestBody SearchObject searchObject){
 
-	    JLanguageTool spellChecker = new JLanguageTool(new BritishEnglish());
-	    List<RuleMatch> matches = new ArrayList<>();
-	    try{
-		    matches = spellChecker.check(searchObject.getSearchString());
-	    }catch(IOException e){
 
-	    }
+        //checking spelling
+//        List<String> corrections = checker.spellCheck(searchObject.getSearchString());
 
-        List<String> corrections = new ArrayList<>();
-	    for(RuleMatch match: matches){
-            corrections.add(searchObject.getSearchString().substring(0, match.getFromPos()) + match.getSuggestedReplacements().get(0) + searchObject.getSearchString().substring(match.getToPos(), searchObject.getSearchString().length()));
-	    }
-
+        //perform search
         SearchI searcher = new Searcher();
-
         List<Result> results = searcher.performSearch(searchObject);
 
+        //build response map
         Map<String, Object> r = new HashMap<>();
-        r.put("corrections", corrections);
+//        r.put("corrections", corrections);
         r.put("results", results);
 
+        //build response object
         JSONResponse<Map<String, Object>> response = new JSONResponse<>();
-
         response.setSuccessful(true);
         response.setResult(r);
 
