@@ -1,147 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>CS412 WSJ Search</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CS412 - Wall Street Journal Searcher</title>
 
-	<link href='https://fonts.googleapis.com/css?family=Quattrocento:400,700|Oswald:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
 
-	<style>
-		h1{
-			font-family: 'Oswald', sans-serif;
-			font-size: 4rem;
-		}
-
-		h2{
-			font-size: 1.5rem;
-			padding: 0.5rem 0;
-		}
-
-		header #subheading {
-			font-size: 1.44rem;
-			padding: 0.5rem 0 0.5rem 0.2rem;
-		}
-
-		html, body {
-			font-family: 'Quattrocento', serif;
-			height: 100%;
-			background-color: #FF5541;
-		}
-
-		header{
-			text-align: center;
-			padding: 3rem 0 1rem 0;
-		}
-
-		footer{
-			position: absolute;
-			bottom: 0;
-			width: calc(100% - 4rem);
-			padding: 1rem 2rem;
-			border-top: 1px solid #eee;
-			background-color: #fff;
-		}
-
-		main form{
-			width: 50%;
-			margin: 3rem auto 0;
-		}
-
-		main form input{
-			box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-			font-family: 'Quattrocento', serif;
-			transition: background-color 0.5s;
-		}
-
-		main form input[type="text"]{
-			font-size: 1.4rem;
-			padding: 0.2rem 0.5rem;
-			border: none;
-			width: 85%;
-			border-right: 1px solid #eee;
-		}
-
-		main form input[type="submit"]{
-			background-color: #fff;
-			border: none;
-			font-size: 1.4rem;
-			padding: 0.2rem;
-			width: 15%;
-			border-left: 1px solid #bbb;
-			cursor: pointer;
-		}
-
-		main form input:hover{
-			background-color: #eeeeee;
-		}
-
-		main form input:focus{
-			outline: none;
-		}
-
-		footer .copyright, footer li, footer p{
-			float: left;
-		}
-
-		footer .info {
-			float: right;
-		}
-
-		footer .copyright{
-			width: 75%;
-		}
-
-		footer .copyright li{
-			padding-left: 0.5rem;
-		}
-
-		footer .info li{
-			padding-right: 0.5rem;
-		}
-
-		footer li a{
-			text-decoration: none;
-			color: #888;
-			transition: color 0.5s;
-		}
-
-		footer li a:hover{
-			text-decoration: none;
-			color: #333;
-		}
-	</style>
 </head>
+
 <body>
-	<header>
-		<h1>Wall Street Journal Searcher</h1>
-		<h2 id="subheading">Insert better name</h2>
-	</header>
-	<main>
-		<form>
-			<input type="text"/><!--
-			--><input type="submit" value="Search">
-		</form>
-	</main>
-	<footer>
-		<div class="copyright">
-			<p>&copy</p>
-			<ul>
-				<li><a href="https://tom-maxwell.com">Thomas Maxwell</a></li>
-				<li>Rameez Mahmood</li>
-				<li>Jamie MacDonald</li>
-				<li>Cailean Macillfhinnein</li>
-				<li>Steven Macleod</li>
-			</ul>
-		</div>
-		<div class="info">
-			<ul>
-				<li>Made for CS412, <a href="https://www.strath.ac.uk/"> StrathClyde University</a></li>
-				<li><a href="https://github.com/ConfuddledPenguin/Search-Thing">Github</a></li>
-			</ul>
-		</div>
-	</footer>
+
+<div id="page">
+
+    <h1>File Search</h1>
+    
+    <form id="searchForm" method="post">
+		<fieldset>
+        
+           	<input id="s" type="text" />
+            
+            <input type="submit" value="Submit" id="submitButton" />
+            
+            <div id="searchInContainer">
+                
+                
+                <label for="searchWeb">Search The Web</label>
+			</div>
+                        
+           
+            
+        </fieldset>
+    </form>
+
+    <div id="resultsDiv"></div>
+    
+</div>
+
+    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

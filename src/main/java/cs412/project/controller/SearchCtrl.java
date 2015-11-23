@@ -32,7 +32,7 @@ public class SearchCtrl {
 
 
         //checking spelling
-//        List<String> corrections = checker.spellCheck(searchObject.getSearchString());
+        List<String> corrections = checker.spellCheck(searchObject.getSearchString());
 
         //perform search
         SearchI searcher = new Searcher();
@@ -40,7 +40,7 @@ public class SearchCtrl {
 
         //build response map
         Map<String, Object> r = new HashMap<>();
-//        r.put("corrections", corrections);
+        r.put("corrections", corrections);
         r.put("results", results);
 
         //build response object

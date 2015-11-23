@@ -5,8 +5,8 @@ package cs412.project.config;
  */
 public class Config {
 
-    public static final String indexPath = "/users/rameezmahmood/Desktop/Search-Thing/index/";
-    public static final String filesPath = "/users/rameezmahmood/Desktop/Search-Thing/Split Files/";
+    public static final String indexPath = "C:/Users/Tom/Dropbox/UNI/year 4/CS412/practicals/project/index/";
+    public static final String filesPath = "C:/Users/Tom/Dropbox/UNI/year 4/CS412/practicals/project/Split Files/";
 
     public static final boolean index = true;
 }

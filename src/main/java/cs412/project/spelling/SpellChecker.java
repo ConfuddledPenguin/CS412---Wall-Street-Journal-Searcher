@@ -22,7 +22,6 @@ public class SpellChecker {
     @Autowired
     private BritishEnglish britishEnglish;
 
-
     public List<String> spellCheck(String string){
 
         MultiThreadedJLanguageTool spellChecker = new MultiThreadedJLanguageTool(britishEnglish);
