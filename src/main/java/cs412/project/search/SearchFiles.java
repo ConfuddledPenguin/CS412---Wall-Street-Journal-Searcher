@@ -28,10 +28,10 @@ public class SearchFiles {
 	
   public SearchFiles() {}
 
-//  public static void main(String[] args) throws Exception {
-//	  search("hello");
-//  }
-  
+/*  public static void main(String[] args) throws Exception {
+	  search("hello");
+  }*/
+
   /** Simple command-line based search demo. */
   //public static void main(String[] args) throws Exception {
   public void search(SearchObject so) throws Exception{
@@ -163,7 +163,7 @@ public class SearchFiles {
 	  FileInfo fi = new FileInfo(path);
 	
 	 // String article = path.substring(path.lastIndexOf('/',path.length()));
-//	  String article = (path.substring(path.lastIndexOf('\\'), path.length())).substring(1);
+	 // String article = (path.substring(path.lastIndexOf('\\'), path.length())).substring(1);
 //
 //	  System.out.println("\n-------" + article + " DOC NO--------");
 //	  System.out.println(fi.getDocumentNumber());
@@ -171,8 +171,10 @@ public class SearchFiles {
 //	  System.out.println(fi.getDocumentId());
 //	  System.out.println("\n-------" + article + " ARTICLE DATE--------");
 //	  System.out.println(fi.getDate());
-//	  System.out.println("\n-------" + article + " HEADLINE--------");
-//	  System.out.println(fi.getHeadline());
+	/*  System.out.println("\n-------" + article + " HEADLINE--------");
+	  System.out.println(fi.getHeadline());
+      System.out.println("\n-------" + article + " AUTHOR--------");
+      System.out.println(fi.getAuthor());*/
 //	  System.out.println("\n-------" + article + " LEADING PARAGRAPH--------");
 //	  System.out.println(fi.getLeadingParagraph());
 //	  System.out.println("\n-------" + article + " ARTICLE TEXT--------");
@@ -182,7 +184,7 @@ public class SearchFiles {
 
       Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), fi.getArticleText());
       r.setDate(fi.getDate());
-
+      r.setAuthor(fi.getAuthor());
 	  resultsList.add(r);
   }
   
