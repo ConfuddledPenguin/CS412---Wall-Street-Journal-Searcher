@@ -182,7 +182,7 @@ public class SearchFiles {
 
       FileNameMagic magic = new FileNameMagic();
 
-      Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), fi.getArticleText());
+      Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), fi.getHeadline());
       r.setDate(fi.getDate());
       r.setAuthor(fi.getAuthor());
 	  resultsList.add(r);
