@@ -28,48 +28,29 @@ public class SearchFiles {
 
 	List<Result> resultsList = new ArrayList<Result>();
 
-	public SearchFiles() {
-	}
-
 	/**
 	 * Simple command-line based search demo.
 	 */
 	public void search(SearchObject so) throws Exception {
 
+
 		String index = Config.indexPath;
 		String field = "contents";
-		String queries = null;
-		int repeat = 0;
 		boolean raw = false;
-		String queryString = null;
 		int hitsPerPage = 10;
+
 
 		IndexReader reader = DirectoryReader.open(FSDirectory.open(new File(index).toPath()));
 		IndexSearcher searcher = new IndexSearcher(reader);
 		Analyzer analyzer = new StandardAnalyzer();
 
-		BufferedReader in = null;
-		if (queries != null) {
-			in = new BufferedReader(new InputStreamReader(new FileInputStream(queries), "UTF-8"));
-		} else {
-			in = new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
-		}
+		BufferedReader in;
+		in = new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
 		QueryParser parser = new QueryParser(field, analyzer);
 
 		Query query = parser.parse(so.getSearchString());
-		//Query query2 = parser.createBooleanQuery()
-		System.out.println("Searching for: " + query.toString(field));
 
-		if (repeat > 0) {                           // repeat & time as benchmark
-			Date start = new Date();
-			for (int i = 0; i < repeat; i++) {
-				searcher.search(query, null, 100);
-			}
-			Date end = new Date();
-			System.out.println("Time: " + (end.getTime() - start.getTime()) + "ms");
-		}
-
-		doPagingSearch(in, searcher, query, hitsPerPage, raw, queries == null && queryString == null);
+		doPagingSearch(in, searcher, query, hitsPerPage, raw, true);
 
 		reader.close();
 	}
@@ -104,7 +85,7 @@ public class SearchFiles {
 
 		FileNameMagic magic = new FileNameMagic();
 
-		Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), fi.getArticleText());
+		Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), fi.getHeadline());
 		r.setDate(fi.getDate());
 		r.setAuthor(fi.getAuthor());
 		resultsList.add(r);
