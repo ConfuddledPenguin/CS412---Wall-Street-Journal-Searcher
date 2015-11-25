@@ -85,9 +85,21 @@ public class SearchFiles {
 
 		FileNameMagic magic = new FileNameMagic();
 
-		Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), fi.getHeadline());
+		String lp = fi.getLeadingParagraph();
+		if(lp == null)
+			lp = fi.getArticleText();
+
+		if(lp.length() > 400)
+			lp = lp.substring(0, 397) + "...";
+
+
+		String author = fi.getAuthor();
+
+		author = (author == null) ? "Author Unknown" : author;
+
+		Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), lp);
 		r.setDate(fi.getDate());
-		r.setAuthor(fi.getAuthor());
+		r.setAuthor( author);
 		resultsList.add(r);
 	}
 
@@ -95,7 +107,3 @@ public class SearchFiles {
 		return resultsList;
 	}
 }
-
-
-
-

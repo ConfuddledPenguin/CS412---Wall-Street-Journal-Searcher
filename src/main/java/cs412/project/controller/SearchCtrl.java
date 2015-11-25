@@ -54,8 +54,6 @@ public class SearchCtrl {
     @RequestMapping(value = "/api/autoSearch", method = RequestMethod.POST)
     public JSONResponse<List<String>> autoSearch(@RequestBody SearchObject searchObject){
 
-        System.out.println(searchObject.getSearchString());
-
         SearchI searcher = new Searcher();
 
         JSONResponse<List<String>> response = new JSONResponse<>();
