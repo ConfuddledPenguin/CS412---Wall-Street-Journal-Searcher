@@ -11,7 +11,8 @@ import org.jsoup.select.Elements;
 
 public class FileInfo {
 	private String filePath;
-	
+	public String author = null;
+
 	public FileInfo(String filePath){
 		this.filePath = filePath;
 	}
@@ -28,7 +29,8 @@ public class FileInfo {
 	
 	public String getHeadline(){
 		Document doc = Jsoup.parse(getAllText(this.filePath));
-		Elements e=doc.select("HL"); 
+		Elements e=doc.select("HL");
+		this.checkForAuthor(e.text());
 		return e.text();
 	}
 	
@@ -60,5 +62,23 @@ public class FileInfo {
 		Document doc = Jsoup.parse(getAllText(this.filePath));
 		Elements e=doc.select("DOCNO"); 
 		return e.text();
+	}
+
+	public String getAuthor(){
+		return this.author;
+	}
+
+	private String checkForAuthor(String headline){
+		if(headline != null) {
+			if(headline.contains("--- By")) {
+				String authorLine = headline.substring((headline.lastIndexOf("--- By")+7) , headline.length());
+				if(authorLine.contains("Staff")){
+					author = authorLine.substring(0,authorLine.lastIndexOf("Staff"));
+				}else{
+					author = authorLine;
+				}
+			}
+		}
+		return author;
 	}
 }
