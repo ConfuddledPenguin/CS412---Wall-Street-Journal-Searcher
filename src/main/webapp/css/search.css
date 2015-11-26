@@ -3,9 +3,9 @@
  * Global
  */
 html, body {
-	font-family: 'Quattrocento', serif;
+	font-family: Arial, Helvetica, sans-serif;
 	height: 100%;
-	background-color: #FCF8F7;
+	background-color: #718693;
 }
 
 /*
@@ -28,7 +28,7 @@ h2{
 header{
 	text-align: center;
 	padding: 3rem 0 1rem 0;
-	background-color: #FF5541;
+	background-color: #4C5A65;
 	box-shadow: 0 5px 5px 0 #aaa;
 }
 
@@ -41,8 +41,15 @@ header #subheading {
  * Search
  */
 
-#simplesearchform{
-	padding:50px 50px 30px;
+#searchForm{
+	background-color:#4C5a65;
+	padding:20px 30px 30px;
+	margin:80px 0;
+	position:relative;
+
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
 }
 
 fieldset{
