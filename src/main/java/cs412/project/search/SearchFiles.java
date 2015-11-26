@@ -92,12 +92,12 @@ public class SearchFiles {
 		if(lp.length() > 400)
 			lp = lp.substring(0, 397) + "...";
 
+		Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), lp);
 
 		String author = fi.getAuthor();
 
 		author = (author == null) ? "Author Unknown" : author;
 
-		Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), lp);
 		r.setDate(fi.getDate());
 		r.setAuthor( author);
 		resultsList.add(r);
