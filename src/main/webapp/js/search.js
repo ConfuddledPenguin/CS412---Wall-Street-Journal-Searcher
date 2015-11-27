@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('#searchForm').submit(function(){
 
 		var request = {
-			searchString: 'bank',
+			searchString: document.getElementById("s").value, //'bank',
 			author: null,
 			title: null,
 			date: null
