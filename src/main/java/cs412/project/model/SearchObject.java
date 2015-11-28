@@ -1,5 +1,7 @@
 package cs412.project.model;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 /**
  * Created by Tom on 21/10/2015.
  */
@@ -9,6 +11,8 @@ public class SearchObject {
     private String author = null;
 	private String title = null;
 	private String date = null;
+	private int startAt = 0;
+	private int perPage  = 0;
 
     public String getSearchString() {
         return searchString;
@@ -40,5 +44,38 @@ public class SearchObject {
 
 	public void setDate(String date) {
 		this.date = date;
+	}
+
+	public int getStartAt() {
+		return startAt;
+	}
+
+	public void setStartAt(int startAt) {
+		this.startAt = startAt;
+	}
+
+	public int getPerPage() {
+		return perPage;
+	}
+
+	public void setPerPage(int perPage) {
+		this.perPage = perPage;
+	}
+
+	@Override
+	public String toString() {
+
+		ObjectMapper mapper = new ObjectMapper();
+
+		String object;
+		try{
+			object = mapper.writeValueAsString(this);
+		}catch(Exception e){
+			object = null;
+			e.printStackTrace();
+		}
+
+
+		return object;
 	}
 }

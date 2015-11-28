@@ -1,5 +1,6 @@
 package cs412.project.controller;
 
+import cs412.project.config.Config;
 import cs412.project.model.Result;
 import cs412.project.model.SearchObject;
 import cs412.project.response.JSONResponse;
@@ -31,6 +32,9 @@ public class SearchCtrl {
     public JSONResponse<Map<String, Object>> performSearch(@RequestBody SearchObject searchObject){
 
 
+		if(Config.debug) System.out.println(searchObject);
+
+
         //checking spelling
         List<String> corrections = checker.spellCheck(searchObject.getSearchString());
 
@@ -47,6 +51,7 @@ public class SearchCtrl {
         JSONResponse<Map<String, Object>> response = new JSONResponse<>();
         response.setSuccessful(true);
         response.setResult(r);
+	    response.getMeta().put("total results", results.size());
 
         return response;
     }

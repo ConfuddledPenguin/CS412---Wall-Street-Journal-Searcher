@@ -18,7 +18,6 @@ import org.apache.lucene.store.FSDirectory;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -28,16 +27,17 @@ public class SearchFiles {
 
 	List<Result> resultsList = new ArrayList<Result>();
 
+	private SearchObject searchObject;
+
 	/**
 	 * Simple command-line based search demo.
 	 */
 	public void search(SearchObject so) throws Exception {
 
 
+		searchObject = so;
 		String index = Config.indexPath;
 		String field = "contents";
-		boolean raw = false;
-		int hitsPerPage = 10;
 
 
 		IndexReader reader = DirectoryReader.open(FSDirectory.open(new File(index).toPath()));
@@ -50,7 +50,7 @@ public class SearchFiles {
 
 		Query query = parser.parse(so.getSearchString());
 
-		doPagingSearch(in, searcher, query, hitsPerPage, raw, true);
+		doPagingSearch(in, searcher, query);
 
 		reader.close();
 	}
@@ -64,24 +64,40 @@ public class SearchFiles {
 	 * to fill 5 result pages. If the user wants to page beyond this limit, then the query
 	 * is executed another time and all hits are collected.
 	 */
-	public void doPagingSearch(BufferedReader in, IndexSearcher searcher, Query query,
-	                           int hitsPerPage, boolean raw, boolean interactive) throws IOException {
+	public void doPagingSearch(BufferedReader in, IndexSearcher searcher, Query query) throws IOException {
 
 		// Collect enough docs to show 5 pages
-		TopDocs results = searcher.search(query, 5 * hitsPerPage);
+		TopDocs results = searcher.search(query, searchObject.getStartAt() * searchObject.getPerPage());
 		ScoreDoc[] hits = results.scoreDocs;
 
-		for (int i = 0; i < hits.length; i++) {
+		int startAt = (searchObject.getStartAt() - 1 ) * searchObject.getPerPage();
+
+		for (int i = startAt; i < hits.length; i++) {
 			Document doc = searcher.doc(hits[i].doc);
+
 			String path = doc.get("path");
 			if (path != null) {
-				printArticleInfo(path);
+
+				FileInfo fi = new FileInfo(path);
+
+				if(!filter(fi)){
+					addToResults(fi, path);
+				}
 			}
 		}
 	}
 
-	public void printArticleInfo(String path) {
-		FileInfo fi = new FileInfo(path);
+	private boolean filter(FileInfo fi){
+
+		if(searchObject.getAuthor() != null){
+			return fi.getAuthor().toLowerCase().equals(searchObject.getAuthor());
+		}
+
+		return false;
+	}
+
+	public void addToResults(FileInfo fi, String path) {
+
 
 		FileNameMagic magic = new FileNameMagic();
 

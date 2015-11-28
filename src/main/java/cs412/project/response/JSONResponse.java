@@ -1,5 +1,8 @@
 package cs412.project.response;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -9,7 +12,7 @@ public class JSONResponse<T> {
 
     private boolean successful = false;
     private String message = null;
-    private Map<String, Object> meta = null;
+    private Map<String, Object> meta = new HashMap<>();
     private T result = null;
 
     public boolean isSuccessful() {
@@ -45,7 +48,19 @@ public class JSONResponse<T> {
     }
 
 	@Override
-	public String toString() {
-		return "{ \n\t\"successful\": " + successful + ",\n\t\"message\"\2: \"" + message + "\",\n\t\"meta\t: " + meta + ",\n\t\"result\": " + result + "\n}";
-	}
+    public String toString() {
+
+        ObjectMapper mapper = new ObjectMapper();
+
+        String object;
+        try{
+            object = mapper.writeValueAsString(this);
+        }catch(Exception e){
+            object = null;
+            e.printStackTrace();
+        }
+
+
+        return object;
+    }
 }

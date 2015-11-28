@@ -11,7 +11,9 @@ $(document).ready(function(){
 			searchString: document.getElementById("s").value, //'bank',
 			author: null,
 			title: null,
-			date: null
+			date: null,
+			startAt: 1,
+			perPage: 10
 		};
 
 		search(request);
@@ -47,8 +49,6 @@ $(document).ready(function(){
 		var resultBox = $('#search-results');
 
 		results.map(function(item){
-
-			console.log(item);
 
 			var html    = template(item);
 
