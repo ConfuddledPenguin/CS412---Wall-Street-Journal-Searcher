@@ -47,6 +47,7 @@ $(document).ready(function(){
 		var template = Handlebars.compile(source);
 
 		var resultBox = $('#search-results');
+		resultBox.empty();
 
 		results.map(function(item){
 
