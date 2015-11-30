@@ -11,6 +11,8 @@ public class SearchObject {
     private String author = null;
 	private String title = null;
 	private String date = null;
+	private String startDate = null;
+	private String endDate = null;
 	private int startAt = 0;
 	private int perPage  = 0;
 
@@ -44,6 +46,22 @@ public class SearchObject {
 
 	public void setDate(String date) {
 		this.date = date;
+	}
+
+	public String getStartDate() {
+		return startDate;
+	}
+
+	public void setStartDate(String date) {
+		this.startDate = date;
+	}
+
+	public String getEndDate() {
+		return endDate;
+	}
+
+	public void setEndDate(String date) {
+		this.endDate = date;
 	}
 
 	public int getStartAt() {

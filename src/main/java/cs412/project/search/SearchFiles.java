@@ -14,8 +14,10 @@ import org.apache.lucene.search.*;
 import org.apache.lucene.store.FSDirectory;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * Simple command-line based search demo.
@@ -23,6 +25,9 @@ import java.util.List;
 public class SearchFiles {
 
 	List<Result> resultsList = new ArrayList<Result>();
+	List<Result> authorResultsList = new ArrayList<Result>();
+	List<Result> dateResultsList = new ArrayList<Result>();
+	List<Result> dateRangeList = new ArrayList<Result>();
 
 	private SearchObject searchObject;
 
@@ -64,7 +69,7 @@ public class SearchFiles {
 	 * to fill 5 result pages. If the user wants to page beyond this limit, then the query
 	 * is executed another time and all hits are collected.
 	 */
-	public void doPagingSearch(BufferedReader in, IndexSearcher searcher, Query query) throws IOException {
+	public void doPagingSearch(BufferedReader in, IndexSearcher searcher, Query query) throws Exception {
 
 		// Collect enough docs to show 5 pages
 		TopDocs results = searcher.search(query, searchObject.getStartAt() * searchObject.getPerPage(), Sort.RELEVANCE);
@@ -84,6 +89,11 @@ public class SearchFiles {
 					addToResults(fi, path);
 				}
 			}
+		}
+		if(!resultsList.isEmpty()){
+			constructAuthorList();
+			constructDateList();
+			constructDateRangeList();
 		}
 	}
 
@@ -115,11 +125,64 @@ public class SearchFiles {
 		author = (author == null) ? "Author Unknown" : author;
 
 		r.setDate(fi.getDate());
-		r.setAuthor( author);
+		r.setAuthor(author);
 		resultsList.add(r);
+	}
+
+	private void constructAuthorList(){
+		if ((searchObject.getAuthor() != null)){
+			for (Result r : resultsList) {
+				if (r.getAuthor().toLowerCase().equals(searchObject.getAuthor().toLowerCase())) {
+					authorResultsList.add(r);
+				}
+			}
+		}
+	}
+
+	private void constructDateList(){
+		if ((searchObject.getDate() != null)) {
+			for (Result r : resultsList) {
+				if (r.getDate().equals(searchObject.getDate())) {
+					dateResultsList.add(r);
+				}
+			}
+		}
+	}
+
+	private void constructDateRangeList() throws Exception{
+		if ((searchObject.getStartDate() != null && searchObject.getEndDate() != null)) {
+			String startDate = searchObject.getStartDate().trim();
+			String endDate = searchObject.getEndDate().trim();
+			DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
+			Date startDateMaker, endDateMaker;
+
+			startDateMaker = df.parse(startDate);
+			endDateMaker = df.parse(endDate);
+
+
+			for (Result r : resultsList) {
+				Date resultDate = df.parse(r.getDate().trim());
+				if (resultDate.after(startDateMaker) && resultDate.before(endDateMaker)) {
+					dateRangeList.add(r);
+				}
+			}
+		}
+
 	}
 
 	public List<Result> getResultsList() {
 		return resultsList;
+	}
+
+	public List<Result> getAuthorResultsList() {
+		return authorResultsList;
+	}
+
+	public List<Result> getDateResultsList() {
+		return dateResultsList;
+	}
+
+	public List<Result> getDateRangeList() {
+		return dateRangeList;
 	}
 }
