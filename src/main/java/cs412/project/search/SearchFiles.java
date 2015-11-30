@@ -85,9 +85,7 @@ public class SearchFiles {
 
 				FileInfo fi = new FileInfo(path);
 
-				if(!filter(fi)){
-					addToResults(fi, path);
-				}
+                addToResults(fi, path);
 			}
 		}
 		if(!resultsList.isEmpty()){
@@ -95,15 +93,6 @@ public class SearchFiles {
 			constructDateList();
 			constructDateRangeList();
 		}
-	}
-
-	private boolean filter(FileInfo fi){
-
-		if(searchObject.getAuthor() != null){
-			return fi.getAuthor().toLowerCase().equals(searchObject.getAuthor());
-		}
-
-		return false;
 	}
 
 	public void addToResults(FileInfo fi, String path) {
