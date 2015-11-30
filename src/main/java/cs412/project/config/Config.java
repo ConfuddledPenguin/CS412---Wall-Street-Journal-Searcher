@@ -13,5 +13,5 @@ public class Config {
 	/*
 	 * Want to see what is coming in and so on?
 	 */
-	public static final boolean debug = false;
+	public static final boolean debug = true;
 }

@@ -10,10 +10,7 @@ import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.queryparser.classic.QueryParser;
-import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.Query;
-import org.apache.lucene.search.ScoreDoc;
-import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.search.*;
 import org.apache.lucene.store.FSDirectory;
 
 import java.io.*;
@@ -50,6 +47,9 @@ public class SearchFiles {
 
 		Query query = parser.parse(so.getSearchString());
 
+
+		if(Config.debug) System.out.println("Searching: " + query.toString());
+
 		doPagingSearch(in, searcher, query);
 
 		reader.close();
@@ -67,7 +67,7 @@ public class SearchFiles {
 	public void doPagingSearch(BufferedReader in, IndexSearcher searcher, Query query) throws IOException {
 
 		// Collect enough docs to show 5 pages
-		TopDocs results = searcher.search(query, searchObject.getStartAt() * searchObject.getPerPage());
+		TopDocs results = searcher.search(query, searchObject.getStartAt() * searchObject.getPerPage(), Sort.RELEVANCE);
 		ScoreDoc[] hits = results.scoreDocs;
 
 		int startAt = (searchObject.getStartAt() - 1 ) * searchObject.getPerPage();

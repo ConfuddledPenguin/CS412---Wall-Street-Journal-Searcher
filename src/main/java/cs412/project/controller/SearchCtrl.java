@@ -31,7 +31,6 @@ public class SearchCtrl {
     @RequestMapping(value = "/api/search", method = RequestMethod.POST)
     public JSONResponse<Map<String, Object>> performSearch(@RequestBody SearchObject searchObject){
 
-
 		if(Config.debug) System.out.println(searchObject);
 
 
@@ -52,6 +51,8 @@ public class SearchCtrl {
         response.setSuccessful(true);
         response.setResult(r);
 	    response.getMeta().put("total results", results.size());
+	    response.getMeta().put("displayed results", results.size());
+	    response.getMeta().put("page number", searchObject.getStartAt());
 
         return response;
     }
