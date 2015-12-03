@@ -50,9 +50,9 @@ public class SearchCtrl {
         JSONResponse<Map<String, Object>> response = new JSONResponse<>();
         response.setSuccessful(true);
         response.setResult(r);
-	    response.getMeta().put("total results", results.size());
-	    response.getMeta().put("displayed results", results.size());
-	    response.getMeta().put("page number", searchObject.getStartAt());
+	    response.getMeta().put("totalResults", results.size());
+	    response.getMeta().put("displayedResults", results.size());
+	    response.getMeta().put("pageNumber", searchObject.getStartAt());
 
         return response;
     }

@@ -8,6 +8,20 @@ html, body {
 	background-color: #718693;
 }
 
+main { margin-bottom: 4.5rem;}
+
+.no-display {
+	display: none !important;
+}
+
+.clear-fix{
+	clear:both;
+}
+
+.bold{
+	font-weight: bold;
+}
+
 /*
  * Typography
  */
@@ -44,7 +58,7 @@ header #subheading {
 #searchForm{
 	background-color:#4C5a65;
 	padding:20px 30px 30px;
-	margin:80px 0;
+	margin: 80px 0 2rem 0;
 	position:relative;
 
 	-moz-border-radius:16px;
@@ -78,7 +92,6 @@ fieldset{
 	width:83px;
 	height:36px;
 	overflow:hidden;
-	text-transform:uppercase;
 	border:none;
 	cursor:pointer;
 }
@@ -90,6 +103,98 @@ fieldset{
 /*
  * Results
  */
+
+#search-container{
+	width: 70%;
+	margin: auto;
+}
+
+#search-corrections{
+	margin-bottom: 1.5rem;
+}
+
+#search-corrections > p {
+	font-size: 1.2rem;
+	float: left;
+	margin-right: 1rem;
+}
+
+#search-corrections-container p{
+	display: inline-block;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+	margin-right: 0.8rem;
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+#search-result:not:last-of-type{
+	margin-bottom: 1.5rem;
+}
+
+#search-result{
+	margin-bottom: 1.5rem;
+}
+
+#search-result-info{
+	height: 1.2rem;
+}
+
+#search-result h3{
+	font-size: 1.2rem;
+	color: blue;
+}
+
+.article-info ul{
+	clear: both;
+	height: 1.2rem;
+}
+
+#search-result-info li, .article-info li{
+	float: left;
+	margin-top: 0.2rem;
+	margin-right: 0.8rem;
+	font-size: 0.8rem;
+}
+
+#pagination{
+	margin: 2rem 0 1rem 0;
+	height: calc(36px + 2rem);
+}
+
+#pagination div{
+	text-align: center;
+	margin: 1rem;
+}
+
+#pagination ul {
+	width: calc( 200px + 1rem);
+	margin: auto;
+	clear: both;
+}
+
+#pagination li{
+	width: 100px;
+	background: #DCDCDC;
+	display: inline-block;
+	height: 36px;
+}
+
+#pagination li a{
+	width: 100%;
+	height: 100%;
+	line-height: 36px;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+}
+
+#pagination li:last-of-type{
+	float: right;
+}
+
+
 
 /*
  * Result page
@@ -117,7 +222,7 @@ footer .info {
 }
 
 footer .copyright{
-	width: 75%;
+	width: 65%;
 }
 
 footer .copyright li{

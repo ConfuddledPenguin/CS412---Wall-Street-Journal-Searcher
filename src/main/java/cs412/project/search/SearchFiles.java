@@ -107,7 +107,14 @@ public class SearchFiles {
 		if(lp.length() > 400)
 			lp = lp.substring(0, 397) + "...";
 
-		Result r = new Result(magic.FileNamePoint(path), fi.getHeadline(), lp);
+		String headline = "";
+
+		if(fi.getHeadline().contains("----")){
+			headline = fi.getHeadline().split("----")[0];
+		}else
+			headline = fi.getHeadline();
+
+		Result r = new Result(magic.FileNamePoint(path), headline, lp);
 
 		String author = fi.getAuthor();
 
