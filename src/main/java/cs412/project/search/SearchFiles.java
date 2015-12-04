@@ -50,8 +50,8 @@ public class SearchFiles {
 		in = new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
 		QueryParser parser = new QueryParser(field, analyzer);
 
+		//Before this we will need to check if the search objects Date, Author field etc have been set
 		Query query = parser.parse(so.getSearchString());
-
 
 		if(Config.debug) System.out.println("Searching: " + query.toString());
 
@@ -97,7 +97,6 @@ public class SearchFiles {
 
 	public void addToResults(FileInfo fi, String path) {
 
-
 		FileNameMagic magic = new FileNameMagic();
 
 		String lp = fi.getLeadingParagraph();
@@ -128,9 +127,10 @@ public class SearchFiles {
 	private void constructAuthorList(){
 		if ((searchObject.getAuthor() != null)){
 			for (Result r : resultsList) {
-				if (r.getAuthor().toLowerCase().equals(searchObject.getAuthor().toLowerCase())) {
+				if (r.getAuthor().toLowerCase().trim().equals(searchObject.getAuthor().toLowerCase().trim())) {
 					authorResultsList.add(r);
 				}
+				System.out.println(r.getAuthor().toLowerCase() + " 0 " + searchObject.getAuthor().toLowerCase());
 			}
 		}
 	}
@@ -151,6 +151,7 @@ public class SearchFiles {
 			String endDate = searchObject.getEndDate().trim();
 			DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
 			Date startDateMaker, endDateMaker;
+
 
 			startDateMaker = df.parse(startDate);
 			endDateMaker = df.parse(endDate);

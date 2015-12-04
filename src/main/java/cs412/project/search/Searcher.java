@@ -22,7 +22,12 @@ public class Searcher implements SearchI{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-            
-            return sf.getResultsList();
+
+            if(!sf.getAuthorResultsList().isEmpty()){
+                return sf.getAuthorResultsList();
+            }
+            else{
+                return sf.getResultsList();
+            }
     }
 }

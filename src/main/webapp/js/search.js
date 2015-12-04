@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 		var request = {
 			searchString: document.getElementById("s").value, //'bank',
-			author: null,
+			author: document.getElementById("s").value,
 			title: null,
 			date: null,
 			startAt: 1,
