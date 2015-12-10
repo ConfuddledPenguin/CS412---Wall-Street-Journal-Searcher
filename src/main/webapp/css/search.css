@@ -100,6 +100,29 @@ fieldset{
 	background-position:left bottom;
 }
 
+#advanced-search-reveal{
+    display: block;
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+.search-section{
+    margin: 0.5rem 0;
+}
+
+.search-section label{
+    width: 100px;
+    display: inline-block;
+}
+
+.search-section input{
+    width: calc(100% - 120px);
+    display: inline-block;
+}
+
 /*
  * Results
  */

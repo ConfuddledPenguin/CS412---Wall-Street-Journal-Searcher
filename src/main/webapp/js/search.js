@@ -15,10 +15,12 @@ $(document).ready(function(){
 	$('#searchForm').submit(function(){
 
 		var request = {
-			searchString: document.getElementById("s").value, //'bank',
-			author: document.getElementById("s").value,
-			title: null,
+			searchString: ($('#s').val() === "") ? null : $('#s').val(),
+			author: ($('#author').val() === "") ? null : $('#author').val(),
+			title: ($('#title').val() === "") ? null : $('#title').val(),
 			date: null,
+            startDate: ($('#sdate').val() === "") ? null : $('#sdate').val(),
+            endDate: ($('#edate').val() === "") ? null : $('#edate').val(),
 			startAt: 1,
 			perPage: 10
 		};
@@ -26,6 +28,19 @@ $(document).ready(function(){
 		search(request);
 		return false;
 	});
+
+    $('#advanced-search-reveal').click(function(){
+
+        if($('#advanced-search-form').hasClass('no-display')){
+            $('#advanced-search-reveal').text("Hide Advanced Search");
+        }else{
+            $('#advanced-search-reveal').text("Show Advanced Search");
+        }
+
+
+        $('#advanced-search-form').toggleClass('no-display');
+
+    });
 
 
 	function search(request){

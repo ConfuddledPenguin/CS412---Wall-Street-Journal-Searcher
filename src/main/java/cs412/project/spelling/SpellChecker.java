@@ -28,6 +28,10 @@ public class SpellChecker {
 
     public List<String> spellCheck(String string){
 
+        if(string == null) return Collections.emptyList();
+
+        string = string.replace("\"", "");
+
         MultiThreadedJLanguageTool spellChecker = new MultiThreadedJLanguageTool(americanEnglish);
         List<RuleMatch> matches = new ArrayList<>();
         try{
