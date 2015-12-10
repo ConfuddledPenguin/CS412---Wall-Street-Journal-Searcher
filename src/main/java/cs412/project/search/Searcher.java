@@ -27,6 +27,8 @@ public class Searcher implements SearchI{
                 return sf.getAuthorResultsList();
             }else if(!sf.getTitleList().isEmpty()){
                 return sf.getTitleList();
+            }else if(!sf.getDateRangeList().isEmpty()){
+                return sf.getDateRangeList();
             }
             else{
                 return sf.getResultsList();

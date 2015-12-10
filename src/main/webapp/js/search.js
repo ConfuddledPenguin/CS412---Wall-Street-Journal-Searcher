@@ -29,8 +29,8 @@ $(document).ready(function(){
 			track = $('#author').val();
 		} else if (!($('#title').val() === "")){
 			track = $('#title').val();
-		} else if (!($('#sdate').val() === "")){
-			track = $('#sdate').val();
+		} else if (!($('#s').val() === "") && !($('#sdate').val() === "") && !($('#edate').val() === "")){
+			track = $('#s').val();
 		}
 
 		var request = {
