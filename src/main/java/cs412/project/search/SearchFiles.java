@@ -26,6 +26,7 @@ public class SearchFiles {
 
 	List<Result> resultsList = new ArrayList<Result>();
 	List<Result> authorResultsList = new ArrayList<Result>();
+	List<Result> titleResultsList = new ArrayList<Result>();
 	List<Result> dateResultsList = new ArrayList<Result>();
 	List<Result> dateRangeList = new ArrayList<Result>();
 
@@ -90,6 +91,7 @@ public class SearchFiles {
 		}
 		if(!resultsList.isEmpty()){
 			constructAuthorList();
+			constructTitleList();
 			constructDateList();
 			constructDateRangeList();
 		}
@@ -131,6 +133,16 @@ public class SearchFiles {
 					authorResultsList.add(r);
 				}
 				System.out.println(r.getAuthor().toLowerCase() + " 0 " + searchObject.getAuthor().toLowerCase());
+			}
+		}
+	}
+
+	private void constructTitleList(){
+		if ((searchObject.getTitle() != null)){
+			for (Result r : resultsList) {
+				if (r.getAbstractText().toLowerCase().contains(searchObject.getTitle().toLowerCase())) {
+					titleResultsList.add(r);
+				}
 			}
 		}
 	}
@@ -181,5 +193,9 @@ public class SearchFiles {
 
 	public List<Result> getDateRangeList() {
 		return dateRangeList;
+	}
+
+	public List<Result> getTitleList() {
+		return titleResultsList;
 	}
 }

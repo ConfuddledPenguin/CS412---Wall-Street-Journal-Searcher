@@ -25,6 +25,8 @@ public class Searcher implements SearchI{
 
             if(!sf.getAuthorResultsList().isEmpty()){
                 return sf.getAuthorResultsList();
+            }else if(!sf.getTitleList().isEmpty()){
+                return sf.getTitleList();
             }
             else{
                 return sf.getResultsList();

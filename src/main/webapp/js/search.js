@@ -14,13 +14,32 @@ $(document).ready(function(){
 
 	$('#searchForm').submit(function(){
 
-		var request = {
+		/*var request = {
 			searchString: ($('#s').val() === "") ? null : $('#s').val(),
 			author: ($('#author').val() === "") ? null : $('#author').val(),
 			title: ($('#title').val() === "") ? null : $('#title').val(),
 			date: null,
             startDate: ($('#sdate').val() === "") ? null : $('#sdate').val(),
             endDate: ($('#edate').val() === "") ? null : $('#edate').val(),
+			startAt: 1,
+			perPage: 10
+		};*/
+		var track = "";
+		if (!($('#author').val() === "")){
+			track = $('#author').val();
+		} else if (!($('#title').val() === "")){
+			track = $('#title').val();
+		} else if (!($('#sdate').val() === "")){
+			track = $('#sdate').val();
+		}
+
+		var request = {
+			searchString: ($('#s').val() === "") ? track : $('#s').val(),
+			author: ($('#author').val() === "") ? null : $('#author').val(),
+			title: ($('#title').val() === "") ? null : $('#title').val(),
+			date: null,
+			startDate: ($('#sdate').val() === "") ? null : $('#sdate').val(),
+			endDate: ($('#edate').val() === "") ? null : $('#edate').val(),
 			startAt: 1,
 			perPage: 10
 		};
